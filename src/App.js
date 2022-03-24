@@ -10,7 +10,6 @@ import Testimonials from "./components/Testimonials";
 import FreeResources from "./components/FreeResources";
 import Footer from "./components/Footer";
 function App() {
-  console.log("check continuous deployment");
   return (
     <div className="App">
       <TopNav />
