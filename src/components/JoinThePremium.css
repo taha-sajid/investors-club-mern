@@ -1,0 +1,41 @@
+.premium-section {
+  background: linear-gradient(#4a1172af, #4a11728a),
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-color: #4a1172;
+  background-size: 50%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+}
+.premium-section h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.premium-section .buttons{
+    display: flex;
+}
+.premium-section .buttons button {
+  font-weight: 900;
+  font-size: 1rem;
+  box-shadow: none;
+  margin-right: 1rem;
+  margin-top: 2rem;  
+}
+.premium-section .buttons button:hover {
+  box-shadow: #2f004f 0px 15px 20px -12px;
+}
+
+.explore-membership, .sell-business{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+    text-transform: uppercase;
+    font-size: .85rem;
+
+}
+.premium-section h3{
+    margin-top: .5rem;
+}

@@ -1,0 +1,61 @@
+.recently-sold {
+  background-color: #f4f7ff;
+  padding: 2rem;
+  padding-bottom: 4rem;
+}
+.recently-sold h1 {
+  color: var(--color-primary);
+  font-size: 1rem;
+}
+.recently-sold .heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 2rem;
+}
+.heading i {
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.recently-sold h1 {
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+
+.slider {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.slide {
+  width: 25rem;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  border-radius: 5px;
+  padding: 1.5rem 2.5rem;
+  background-color: white;
+  box-shadow: rgba(100, 99, 99, 0.15) 0px 5px 25px;
+}
+.slider .slide .sold-price {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.sold-price .icon {
+  transform: rotate(-45deg);
+  margin-right: 0.2rem;
+}
+
+.data .date {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+.data p:last-child {
+  font-size: 0.9rem;
+  color: rgb(73, 71, 71);
+}

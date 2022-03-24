@@ -1,0 +1,54 @@
+.footer-section {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  color: gray;
+  padding: 5rem 3rem;
+}
+
+.footer-icons .logo {
+  margin-bottom: 1.5rem;
+  margin-left: 3px;
+}
+.footer-icons i {
+  margin-left: 1rem;
+}
+
+.footer-icons,
+.footer-links,
+.footer-copyright {
+  width: 30%;
+}
+.footer-copyright p {
+  width: 70%;
+  text-align: justify;
+  font-size: 0.8rem;
+  line-height: 1.3rem;
+  color: rgb(165, 163, 163);
+  margin-left: 3rem;
+}
+.footer-copyright h5 {
+  margin-left: 3rem;
+  margin-top: 1rem;
+}
+.footer-links {
+  display: flex;
+  justify-content: space-between;
+}
+.footer-links a {
+  display: block;
+  text-decoration: none;
+  color: gray;
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+}
+
+.main-links a:last-child {
+  color: var(--color-primary);
+  font-weight: 900;
+}
+
+.footer-bottom-line {
+  height: 1rem;
+  background-color: #4a1172;
+}

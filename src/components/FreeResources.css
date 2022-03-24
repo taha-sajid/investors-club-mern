@@ -1,0 +1,51 @@
+.resources-section {
+  padding: 5rem 3rem;
+  background-color: #f4f7ff;
+}
+
+.resources-section .heading {
+  margin-bottom: 3rem;
+  color: var(--color-primary);
+}
+
+.free-resources-cards {
+  display: flex;
+  justify-content: space-between;
+}
+.resources-card {
+  transition: 0.3s;
+  width: 24.5rem;
+  cursor: pointer;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px, rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+}
+
+.resources-card:hover {
+  transform: translateY(-0.7rem);
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 18px;
+}
+.resources-card img {
+  width: 100%;
+  background-size: cover;
+}
+.resources-card-data {
+  padding: 2rem;
+  overflow: hidden;
+  background-color: white;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.resources-card-data h3 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+.resources-card-data .description {
+  font-size: 0.85rem;
+  color: gray;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}

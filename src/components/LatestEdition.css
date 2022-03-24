@@ -1,0 +1,123 @@
+.latest-addition-section {
+  min-height: 100vh;
+  padding: 0rem 3rem;
+  color: #424144;
+}
+.latest-addition-section .heading {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 7rem 0rem;
+}
+.latest-addition-section .heading p {
+  width: 50%;
+  padding-right: 5rem;
+  line-height: 1.5rem;
+}
+
+.latest-addition-section h2 {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 2rem;
+}
+.addition-cards-bunch {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  margin-top: -1rem;
+}
+.addition-cards {
+  cursor: pointer;
+}
+.addition-cards .category {
+  margin-bottom: 0.5rem;
+  font-size: 0.9rem;
+  text-transform: capitalize;
+}
+.addition-card {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding-top: 1.2rem;
+  padding-bottom: 1rem;
+  padding-left: 1.2rem;
+  padding-right: 0rem;
+  width: 18rem;
+  background-color: aquamarine;
+  overflow: hidden;
+  height: 19rem;
+  border-radius: 1rem;
+  box-shadow: 0 5.3px 8px rgb(0 0 0 / 10%), 0 42px 64px rgb(0 0 0 / 10%);
+}
+.card-tag {
+  background-color: #53cb83;
+  color: white;
+  padding: 0.2rem 0.5rem;
+  width: max-content;
+  border-radius: 5px;
+  font-size: 0.8rem;
+  text-transform: capitalize;
+  font-weight: 600;
+}
+.card-data {
+  padding-top: 1rem;
+  border-top: 1px solid rgb(212, 206, 206);
+  border-top-style: dashed;
+  margin-left: 0.5rem;
+}
+
+.card-data .price {
+  font-size: 1.5rem;
+  color: white;
+  font-weight: 900;
+  margin-bottom: 0.3rem;
+}
+.card-data .description {
+  font-size: 0.8rem;
+  color: rgb(216, 221, 224);
+}
+
+.card-data .description span {
+  font-weight: 900;
+}
+.addition-card img {
+  height: 100%;
+  width: 100%;
+}
+
+.current-position {
+  display: flex;
+  flex-wrap: wrap;
+  margin-top: 6rem;
+  margin-bottom: 3.5rem;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+}
+
+.current-position h3 {
+  margin: 0.5rem 0rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: black;
+  margin-left: 35px;
+}
+.current-position h3 span {
+  font-size: 1.8rem;
+}
+.current-position .title {
+  display: flex;
+}
+.current-position .title .line {
+  width: 30px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  margin-right: 0.5rem;
+}
+.asking-price {
+  margin-right: 15rem;
+}
+
+.active-listing {
+  margin-right: 15rem;
+}
