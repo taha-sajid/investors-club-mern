@@ -3,7 +3,6 @@ import "./Buyers.css";
 import ImageData from "./BuyersImageData";
 import CardData from "./BuyersCardData";
 const Buyers = () => {
-  console.log(CardData);
   return (
     <div className="buyers">
       <div className="buyers-section-heading">
@@ -18,7 +17,6 @@ const Buyers = () => {
           <div className="investing-reason">
             {CardData.map((card, index) => {
               const { title, icon, description, button } = card;
-              console.log(icon);
               return (
                 <div className="features-card" key={index}>
                   <div className="features-icon">

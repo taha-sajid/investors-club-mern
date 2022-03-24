@@ -35,7 +35,6 @@ const Seller = () => {
         <div className="seller-slider">
           <div className="seller-slide">
             <div className="customer-image">
-              {" "}
               <img src={url} alt="" />
             </div>
             <div className="customer-data">
