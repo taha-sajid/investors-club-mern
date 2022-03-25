@@ -14,7 +14,7 @@ function App() {
     <div className="App">
       <TopNav />
       <Header />
-      {/* <RecentlySoldSlider /> */}
+      <RecentlySoldSlider />
       <Buyers />
       <Seller />
       <LatestEdition />

@@ -41,3 +41,42 @@
 .name-and-category h5 {
   color: gray;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .testimonials-section {
+    flex-direction: column;
+    padding: 3rem 1.5rem;
+  }
+  .testimonials-section h3 {
+    width: 100%;
+    padding: 0;
+    font-size: 1rem;
+    margin-bottom: 3rem;
+  }
+  .testimonials-slide {
+    width: 100%;
+    margin-left: 0rem;
+    padding: 0;
+  }
+  .testimonials-slide .image img {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

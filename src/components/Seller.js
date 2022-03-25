@@ -42,9 +42,7 @@ const Seller = () => {
                 I recently sold an affiliate website on Investors Club and the
                 process was quick, simple, and very hands off. Andrej and the
                 team definitely know what they are doing when it comes to online
-                business; there are no issues that they won't be able to solve.
-                I can highly recommend Investors Club, and I will be using their
-                services to sell another business in the near future.
+                business; 
               </p>
               <h4>Sammy Dolan</h4>
               <p className="field">Entrepreneur</p>

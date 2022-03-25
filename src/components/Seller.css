@@ -91,3 +91,66 @@
 .seller-buttons button {
   margin-bottom: 1.8rem;
 }
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .seller-section {
+    margin-top: 0rem;
+    padding: 4rem 1.5rem;
+  }
+  .seller-section h2 {
+    font-size: 1.3rem;
+  }
+  .seller-slogon p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .seller-card {
+    margin-right: 0rem;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .seller-card h3 {
+    font-size: 1rem;
+  }
+  .seller-card p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .seller-buttons {
+    width: 100%;
+  }
+  .seller-buttons button {
+    margin-bottom: 1.1rem;
+  }
+  .seller-slide .customer-image img{
+    height: 50px;
+    width: 50px;
+  }
+  .seller-slider {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .customer-data .description{
+    font-size: .9rem;
+    line-height: 1.3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

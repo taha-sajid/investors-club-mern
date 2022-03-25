@@ -53,7 +53,7 @@ const Buyers = () => {
                   <div className="heading">
                     <h1>{title}</h1>
                   </div>
-                  <div className="description">{description}</div>
+                  <div className="description"> <p> {description} </p></div>
                 </div>
                 <img src={img} alt="" />
               </div>

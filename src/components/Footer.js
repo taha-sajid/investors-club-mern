@@ -48,7 +48,7 @@ const Footer = () => {
         </div>
         <div className="footer-copyright">
           <p>
-            Copyright 2022 by Investors Club LLC. All rights reserved. A part of
+            Copyright 2022 by Investors Club LLC. All rights reserved. <br /> A part of
             the Sharp Capital Group.
           </p>
           <h5>Version: v2.55.4</h5>

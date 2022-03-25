@@ -107,6 +107,7 @@
 }
 .current-position .title {
   display: flex;
+  color: gray;
 }
 .current-position .title .line {
   width: 30px;
@@ -114,10 +115,97 @@
   margin-bottom: 5px;
   margin-right: 0.5rem;
 }
-.asking-price {
+.asking-price,
+.active-listing {
   margin-right: 15rem;
 }
 
-.active-listing {
-  margin-right: 15rem;
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .latest-addition-section {
+    padding: 0 1.5rem;
+  }
+  .latest-addition-section .heading {
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0;
+  }
+  .latest-addition-section .heading h2 {
+    font-size: 1.3rem;
+    margin: 3rem 0rem;
+  }
+  .latest-addition-section .heading p {
+    width: 100%;
+    font-size: 0.9rem;
+    padding: 0;
+    margin-bottom: 3rem;
+  }
+  .addition-cards-bunch {
+    justify-content: flex-start;
+  }
+
+  .addition-card {
+    width: 19.7rem;
+    height: 12rem;
+    margin-bottom: 2rem;
+  }
+  .addition-cards .category {
+    font-size: 0.75rem;
+  }
+  .card-data {
+    padding-top: 0.5rem;
+  }
+  .card-data .price {
+    font-size: 1.3rem;
+  }
+  .card-data .description {
+    font-size: 0.75rem;
+  }
+  .card-tag {
+    font-size: 0.7rem;
+  }
+  .current-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .current-position h3 {
+    margin-left: 0;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .current-position h3 span {
+    font-size: 1.2rem;
+  }
+  .current-position .title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .current-position .title .line {
+    display: none;
+  }
+  .asking-price,
+  .active-listing {
+    margin: 0;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }
