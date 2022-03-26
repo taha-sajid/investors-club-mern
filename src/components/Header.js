@@ -3,6 +3,7 @@ import "./Header.css";
 import url from "../assets/hero-image.png";
 import Navbar from "./Navbar";
 import { BsCheck2 } from "react-icons/bs";
+
 const Header = () => {
   return (
     <div className="header">

@@ -59,13 +59,13 @@
     padding-left: 1.3rem;
   }
   .header-content-heading {
-    font-size: 0.9rem;
+    font-size: 0.85rem;
   }
   .header-image {
     display: none;
   }
   .header-content-features p {
-    font-weight: 800;
+    font-weight: 700;
     font-size: 0.8rem;
   }
   .feature .header-icons {

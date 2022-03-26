@@ -187,6 +187,9 @@
   .features-card {
     width: 19.5rem;
   }
+  .features-card .features-data button{
+    margin-left: 0;
+  }
   .features-data button {
     margin-left: -1rem;
   }

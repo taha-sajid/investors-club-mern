@@ -1,9 +1,19 @@
 import React from "react";
 import "./Navbar.css";
+import { NavLogo } from "./Svgs";
+
 const Navbar = () => {
   return (
     <div className="main-nav">
+      <nav className="nav-toggle">
+        <button className="hamburger">
+          <div className="line1"></div>
+          <div className="line2"></div>
+        </button>
+      </nav>
       <div className="nav-logo">
+        <NavLogo className="logo-mobile" />
+
         <h4>
           Investors<span>club </span>
         </h4>
