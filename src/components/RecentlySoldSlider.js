@@ -6,6 +6,9 @@ import sliderData from "./RecentlySoldSliderData";
 
 const RecentlySoldSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);
+  const [windowDimensions, setWindowDimensions] = useState(
+    getWindowDimensions()
+  );
 
   useEffect(() => {
     setTimeout(() => {
@@ -24,10 +27,6 @@ const RecentlySoldSlider = () => {
       height,
     };
   }
-
-  const [windowDimensions, setWindowDimensions] = useState(
-    getWindowDimensions()
-  );
 
   useEffect(() => {
     function handleResize() {
@@ -58,7 +57,7 @@ const RecentlySoldSlider = () => {
                   id === 1
                     ? `${
                         windowDimensions.width < 600
-                          ? `-${currentSlide * 110.5}%`
+                          ? `-${currentSlide * 114}%`
                           : `-${currentSlide * 35.18}%`
                       } `
                     : undefined,
