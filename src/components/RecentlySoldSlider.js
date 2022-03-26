@@ -58,7 +58,7 @@ const RecentlySoldSlider = () => {
                   id === 1
                     ? `${
                         windowDimensions.width < 600
-                          ? `-${currentSlide * 95}vw`
+                          ? `-${currentSlide * 110.5}%`
                           : `-${currentSlide * 35.18}%`
                       } `
                     : undefined,

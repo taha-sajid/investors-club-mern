@@ -79,12 +79,16 @@
     padding-left: 1.5rem;
     padding-right: 1.5rem;
   }
+  .recently-sold .heading {
+    padding: 2rem 0rem;
+  }
   .recently-sold h1 {
     font-size: 1.3rem;
+    /* padding: 2rem 1.5rem; */
   }
   .slider {
-    padding: 1.5rem;
-    width: 95vw;
+    padding: 2rem 1.5rem;
+    width: 100%;
   }
   .slide {
     display: flex;
