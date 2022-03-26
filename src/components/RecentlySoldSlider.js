@@ -9,7 +9,11 @@ const RecentlySoldSlider = () => {
 
   useEffect(() => {
     setTimeout(() => {
-      setCurrentSlide(currentSlide + 1);
+      if (currentSlide < sliderData.length - 3) {
+        setCurrentSlide(currentSlide + 1);
+      } else {
+        setCurrentSlide(0);
+      }
     }, 2000);
   }, [currentSlide]);
 
