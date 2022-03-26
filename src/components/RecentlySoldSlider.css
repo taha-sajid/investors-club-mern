@@ -1,6 +1,9 @@
 .recently-sold {
   background-color: #f4f7ff;
   padding: 2rem;
+  padding-bottom: 4rem;
+
+  box-shadow: inset 0px 10px 35px rgba(121, 40, 187, 0.39);
 }
 .recently-sold h1 {
   color: var(--color-primary);
@@ -22,6 +25,7 @@
   display: flex;
   width: 95vw;
   margin: 0 auto;
+
 }
 
 .slide {
@@ -68,6 +72,8 @@
   .recently-sold {
     padding-left: 1.5rem;
     padding-right: 1.5rem;
+  box-shadow: inset 0px 10px 35px rgba(121, 40, 187, 0.274);
+
   }
   .recently-sold .heading {
     padding: 0;
