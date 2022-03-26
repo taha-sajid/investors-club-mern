@@ -1,10 +1,18 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import "./RecentlySoldSlider.css";
 import { ImPriceTags } from "react-icons/im";
 import { IoIosPricetag } from "react-icons/io";
+import sliderData from "./RecentlySoldSliderData";
+
 const RecentlySoldSlider = () => {
-  const [slider, setSlider] = useState(0);
-  
+  const [currentSlide, setCurrentSlide] = useState(0);
+
+  useEffect(() => {
+    setTimeout(() => {
+      setCurrentSlide(currentSlide + 1);
+    }, 2000);
+  }, [currentSlide]);
+
   return (
     <div className="recently-sold">
       <div className="heading">
@@ -14,37 +22,27 @@ const RecentlySoldSlider = () => {
         <h1>Recently Sold</h1>
       </div>
       <div className="slider">
-        <div className="slide">
-          <div className="data">
-            <p className="date">March 2022</p>
-            <p>PETS</p>
-          </div>
-          <div className="sold-price">
-            <IoIosPricetag className="icon" />
-            <p>$90,000</p>
-          </div>
-        </div>
-        <div className="slide">
-          <div className="data">
-            <p className="date">March 2022</p>
-            <p>PETS</p>
-          </div>
-          <div className="sold-price">
-            <IoIosPricetag className="icon" />
-            <p>$30,000</p>
-          </div>
-        </div>
-
-        <div className="slide">
-          <div className="data">
-            <p className="date">March 2022</p>
-            <p>PETS</p>
-          </div>
-          <div className="sold-price">
-            <IoIosPricetag className="icon" />
-            <p>$15,000</p>
-          </div>
-        </div>
+        {sliderData.map((slide) => {
+          const { date, category, id, price } = slide;
+          return (
+            <div
+              className="slide"
+              key={id}
+              style={{
+                marginLeft: id === 1 ? `-${currentSlide * 35.19}%` : undefined,
+              }}
+            >
+              <div className="data">
+                <p className="date">{date}</p>
+                <p>{category}</p>
+              </div>
+              <div className="sold-price">
+                <IoIosPricetag className="icon" />
+                <p>${price}</p>
+              </div>
+            </div>
+          );
+        })}
       </div>
     </div>
   );

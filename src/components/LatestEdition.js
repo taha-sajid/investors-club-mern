@@ -13,10 +13,10 @@ const LatestEdition = () => {
           </p>
         </div>
         <div className="addition-cards-bunch">
-          {cardsData.map((card) => {
+          {cardsData.map((card, index) => {
             const { image, cardTag, averageRevenue, category, price } = card;
             return (
-              <div className="addition-cards">
+              <div className="addition-cards" key={index}>
                 <p className="category">{category}</p>
                 <div
                   className="addition-card"

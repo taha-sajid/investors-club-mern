@@ -8,11 +8,11 @@ const FreeResources = () => {
         <h1>Must-reads and free resources</h1>
       </div>
       <div className="free-resources-cards">
-        {cardData.map((card) => {
+        {cardData.map((card, index) => {
           const { title, description, image } = card;
 
           return (
-            <div className="resources-card">
+            <div className="resources-card" key={index}>
               <img src={image} alt="" />
               <div className="resources-card-data">
                 <h3 className="title">{title}</h3>
