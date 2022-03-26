@@ -28,7 +28,7 @@
   padding-left: 0;
   display: flex;
   /* background-color: aquamarine; */
-  width: 80rem;
+  width: 95vw;
   /* flex-wrap: wrap; */
   /* justify-content: space-between; */
   margin: 0 auto;
@@ -82,11 +82,15 @@
   .recently-sold h1 {
     font-size: 1.3rem;
   }
-
+  .slider {
+    padding: 1.5rem;
+    width: 95vw;
+  }
   .slide {
     display: flex;
     flex-direction: column;
     margin-top: 1rem;
+    width: 100%;
   }
   .slide .data {
     text-align: center;

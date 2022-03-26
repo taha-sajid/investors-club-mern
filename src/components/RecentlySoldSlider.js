@@ -17,6 +17,27 @@ const RecentlySoldSlider = () => {
     }, 2000);
   }, [currentSlide]);
 
+  function getWindowDimensions() {
+    const { innerWidth: width, innerHeight: height } = window;
+    return {
+      width,
+      height,
+    };
+  }
+
+  const [windowDimensions, setWindowDimensions] = useState(
+    getWindowDimensions()
+  );
+
+  useEffect(() => {
+    function handleResize() {
+      setWindowDimensions(getWindowDimensions());
+    }
+
+    window.addEventListener("resize", handleResize);
+    return () => window.removeEventListener("resize", handleResize);
+  }, []);
+  console.log(windowDimensions.width);
   return (
     <div className="recently-sold">
       <div className="heading">
@@ -33,7 +54,14 @@ const RecentlySoldSlider = () => {
               className="slide"
               key={id}
               style={{
-                marginLeft: id === 1 ? `-${currentSlide * 35.19}%` : undefined,
+                marginLeft:
+                  id === 1
+                    ? `${
+                        windowDimensions.width < 600
+                          ? `-${currentSlide * 95}vw`
+                          : `-${currentSlide * 35.18}%`
+                      } `
+                    : undefined,
               }}
             >
               <div className="data">
