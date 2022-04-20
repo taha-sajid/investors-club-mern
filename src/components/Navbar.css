@@ -9,6 +9,11 @@
   box-shadow: 0 6px 5px #410a68b4;
   background-color: #530d8544;
 }
+.nav-content{
+  width: 100%;
+  display: flex;
+  justify-content: space-between;
+}
 .nav-logo {
   display: flex;
   justify-content: space-between;
@@ -81,7 +86,7 @@
   float: right;
   position: absolute;
   top: 1rem;
-  left: 85%;
+  left: 80%;
   height: 40px;
   width: 40px;
   display: flex;
@@ -115,7 +120,12 @@
   width: 10px;
   margin-top: 3px;
 }
-
+.nav-active{
+opacity: 100;
+}
+.nav-logo a{
+  display: block;
+}
 .active button div:first-child {
   width: 25px;
   transform: rotate(45deg);
@@ -145,18 +155,3 @@
   }
 }
 
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
-}

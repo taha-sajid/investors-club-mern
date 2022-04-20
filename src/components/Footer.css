@@ -87,29 +87,13 @@
   }
   .footer-copyright p {
     margin: 0;
-    font-size: .75rem;
+    font-size: 0.75rem;
     color: #9285a0ab;
-
   }
   .footer-copyright h5 {
     margin: 0;
     margin-top: 1.3rem;
     color: #9285a0ab;
-    font-size: .7rem;
+    font-size: 0.7rem;
   }
-}
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }

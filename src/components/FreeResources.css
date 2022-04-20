@@ -67,6 +67,7 @@
   }
   .resources-card {
     margin-bottom: 2rem;
+width: 100%;
   }
   .resources-card-data {
     border-bottom-right-radius: 1rem;
@@ -75,23 +76,7 @@
   .resources-card-data h3 {
     font-size: 0.95rem;
   }
-  .resources-card-data .description{
-    font-size: .8rem;
+  .resources-card-data .description {
+    font-size: 0.8rem;
   }
-}
-
-/* Small devices (portrait tablets and large phones, 600px and up) */
-@media only screen and (min-width: 600px) {
-}
-
-/* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {
-}
-
-/* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {
-}
-
-/* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {
 }
