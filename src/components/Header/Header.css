@@ -5,18 +5,17 @@
   background-repeat: repeat-x;
   font-weight: 900;
   background-size: 30%;
-  box-shadow: 4px 0px 35px rgb(70, 196, 70);
-  padding-bottom: 5rem;
 }
 
 .header-section {
   margin-top: 4rem;
   display: flex;
   justify-content: space-between;
+  padding: 0rem 3rem;
+  padding-bottom: 5rem;
 }
 .header-content {
   width: 50%;
-  padding-left: 3rem;
 }
 .header-content-heading {
   margin-top: 2rem;
@@ -52,10 +51,15 @@
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
+  .header {
+    height: 90vh;
+  }
+  .header-section {
+    padding: 0rem 1.5rem;
+  }
   .header-content {
-    width: 90%;
-    padding-left: 1.3rem;
+    width: 100%;
   }
   .header-content-heading h1 {
     font-size: 1.7rem;
@@ -74,4 +78,12 @@
     font-size: 0.9rem;
     line-height: 1.3rem;
   }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
 }

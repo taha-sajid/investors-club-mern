@@ -36,7 +36,7 @@ const RecentlySoldSlider = () => {
       }
     }, 2000);
   }, [currentSlide]);
-
+  console.log(windowDimensions.width);
   return (
     <div className="recently-sold">
       <div className="heading">
@@ -56,9 +56,9 @@ const RecentlySoldSlider = () => {
                 marginLeft:
                   id === 1
                     ? `${
-                        windowDimensions.width < 600
+                        windowDimensions.width < 768
                           ? `-${currentSlide * 100}%`
-                          : `-${currentSlide * 35.18}%`
+                          : `-${currentSlide * 27.5}rem`
                       } `
                     : undefined,
               }}

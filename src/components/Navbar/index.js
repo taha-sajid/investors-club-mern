@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { NavLogo } from "./Svgs";
+import { NavLogo } from "../../assets/Svgs";
 
 const Navbar = () => {
   const [isNavActive, setIsNavActive] = useState(false);

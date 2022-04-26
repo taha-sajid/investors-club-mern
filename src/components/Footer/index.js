@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Logo } from "./Svgs";
+import { Logo } from "../../assets/Svgs";
 import {
   FaFacebookF,
   FaLinkedinIn,

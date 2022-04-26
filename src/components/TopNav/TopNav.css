@@ -1,0 +1,38 @@
+.top-nav {
+  background-image: url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-size: 13%;
+  color: white;
+  background-color: #34c26d;
+  text-align: center;
+  padding: 0.6rem 0rem;
+  font-size: 0.95rem;
+  font-weight: 900;
+}
+.top-nav a {
+  text-decoration: none;
+  color: #460e6e;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 600px) {
+  .top-nav {
+    padding-right: 2.5rem;
+    font-size: 0.79rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

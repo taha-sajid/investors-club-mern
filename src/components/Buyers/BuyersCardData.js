@@ -1,4 +1,4 @@
-import { CupSVG, StarSVG, CheckSVG, WalletSVG } from "./Svgs";
+import { CupSVG, StarSVG, CheckSVG, WalletSVG } from "../../assets/Svgs";
 
 const data = [
   {

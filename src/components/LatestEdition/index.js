@@ -1,6 +1,6 @@
 import React from "react";
 import "./LatestEdition.css";
-import cardsData from "./EditionCardData";
+import cardsData from "./LatestEditionCardData";
 
 const LatestEdition = () => {
   return (

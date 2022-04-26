@@ -9,7 +9,6 @@ const TopNav = () => {
         href="https://docs.google.com/forms/d/1Ndba1SY4kaYT_eBfylGWSKd1RYUIERvYuRgR-UGjoR4/viewform?edit_requested=true"
         target="_blank"
       >
-        {" "}
         Learn more
       </a>
     </h5>

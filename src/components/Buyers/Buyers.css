@@ -153,8 +153,29 @@
   font-size: 0.7rem;
 }
 
+@media only screen and (max-width: 543px) {
+  .seo-analysis {
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    padding: 0;
+  }
+  .seo-analysis .heading {
+    font-size: 0.4rem;
+    font-weight: 900;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .seo-analysis .description {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+}
+
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 600px) {
+@media only screen and (max-width: 992px) {
   .buyers {
     padding-top: 2rem;
     padding-left: 1.5rem;
@@ -223,21 +244,13 @@
     box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 35px -10px,
       rgba(0, 0, 0, 0.01) 0px 10px 15px -5px;
   }
-  .seo-analysis {
-    display: flex;
-    flex-direction: column;
-    position: initial;
-    padding: 0;
-  }
-  .seo-analysis .heading {
-    font-size: 0.4rem;
-    font-weight: 900;
-    margin-top: 0.3rem;
-    margin-bottom: 0.5rem;
-  }
-  .seo-analysis .description {
-    width: 100%;
-    font-size: 0.8rem;
-    line-height: 1.2rem;
-  }
 }
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

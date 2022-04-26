@@ -1,7 +1,7 @@
 import React from "react";
 import "./Seller.css";
 import CardData from "./SellerData";
-import url from "../assets/seller.jpg";
+import url from "../../assets/seller.jpg";
 const Seller = () => {
   return (
     <div className="seller-section">

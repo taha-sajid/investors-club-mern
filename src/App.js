@@ -1,26 +1,19 @@
 import "./App.css";
 import Header from "./components/Header";
-import TopNav from "./components/TopNav";
-import RecentlySoldSlider from "./components/RecentlySoldSlider";
-import Buyers from "./components/Buyers";
-import Seller from "./components/Seller";
-import LatestEdition from "./components/LatestEdition";
-import JoinThePremium from "./components/JoinThePremium";
-import Testimonials from "./components/Testimonials";
-import FreeResources from "./components/FreeResources";
+// import TopNav from "./components/TopNav";
+import Navbar from "./components/Navbar";
+import Home from "./Pages/Home";
 import Footer from "./components/Footer";
 function App() {
   return (
     <div className="App">
       {/* <TopNav /> */}
+      {/* <Navbar />  Header component contain this navbar */}
       <Header />
-      <RecentlySoldSlider />
-      <Buyers />
-      <Seller />
-      <LatestEdition />
-      <JoinThePremium />
-      <Testimonials />
-      <FreeResources />
+      {/* wrapped home buy and sell pages into react router dom */}
+      <Home />
+      {/* <Buy /> */}
+      {/* <Sell /> */}
       <Footer />
     </div>
   );
