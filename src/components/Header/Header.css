@@ -1,6 +1,6 @@
 .header {
   background-image: linear-gradient(#4a1172af, #4a1172af),
-    url("https://investors.club/static/media/graphic-keyvisual.7c781be2.svg");
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
   background-color: #530d85;
   background-repeat: repeat-x;
   font-weight: 900;
@@ -19,7 +19,7 @@
 }
 .header-content-heading {
   margin-top: 2rem;
-  color: #fec45c;
+  color: var(--color-secondary);
   font-size: 1.2rem;
 }
 .header-content-features {

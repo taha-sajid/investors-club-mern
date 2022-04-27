@@ -1,7 +1,7 @@
 import React from "react";
 import "./Buyers.css";
-import ImageData from "./BuyersImageData";
-import CardData from "./BuyersCardData";
+import ImageData from "../../assets/RequiredData/BuyersImageData";
+import CardData from "../../assets/RequiredData/BuyersCardData";
 const Buyers = () => {
   return (
     <div className="buyers">

@@ -4,7 +4,7 @@ import {
   ServiceSVG,
   EnvelopSVG,
   DoubleCheckSVG,
-} from "../../assets/Svgs";
+} from "./Svgs";
 
 const data = [
   {

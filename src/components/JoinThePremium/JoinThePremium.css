@@ -2,7 +2,7 @@
   background: linear-gradient(#4a1172af, #4a11728a),
     url("https://investors.club/static/media/pattern-1.e467f39f.svg");
   background-repeat: repeat-x;
-  background-color: #4a1172;
+  background-color: var(--color-primary);
   background-size: 50%;
   height: 30rem;
   display: flex;
@@ -26,7 +26,7 @@
   margin-top: 2rem;
 }
 .premium-section .buttons button:hover {
-  box-shadow: #2f004f 0px 15px 20px -12px;
+  box-shadow: var(--color-primary-dark) 0px 15px 20px -12px;
 }
 
 .explore-membership,

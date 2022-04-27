@@ -1,6 +1,6 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { NavLogo } from "../../assets/Svgs";
+import { NavLogo } from "../../assets/RequiredData/Svgs";
 
 const Navbar = () => {
   const [isNavActive, setIsNavActive] = useState(false);
@@ -37,7 +37,7 @@ const Navbar = () => {
         </div>
         <div className="nav-btn">
           <button className="login">login</button>
-          <button className="sign-up">sign up</button>
+          <button className="btn-secondary">sign up</button>
         </div>
       </div>
     </div>

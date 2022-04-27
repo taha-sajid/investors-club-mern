@@ -100,52 +100,6 @@
   font-size: 0.8rem;
   line-height: 1.1rem;
 }
-
-.btn-primary {
-  background: none;
-  border: none;
-  background-color: var(--color-primary);
-  color: white;
-  font-size: 0.7rem;
-  text-transform: capitalize;
-  padding: 0.3rem 1.5rem;
-  border-radius: 5px;
-  cursor: pointer;
-  border-bottom: 3px solid #2f004f;
-  border-top: 2px solid #841ecc;
-  box-shadow: #2f004f42 0px 10px 15px -3px, #2f004f96 0px 4px 6px -2px;
-  transition: 0.2s;
-}
-
-.btn-primary:hover {
-  transform: translateY(-2px);
-  box-shadow: #2f004f 0px 15px 20px -12px;
-  background-color: #64129e;
-}
-.btn-secondary {
-  background: none;
-  border: none;
-  color: #530d85;
-  font-size: 0.7rem;
-  text-transform: capitalize;
-  padding: 0.3rem 1.5rem;
-  border-radius: 5px;
-  cursor: pointer;
-  box-shadow: #c7933370 0px 10px 15px -3px, #fec45c 0px 4px 6px -2px;
-  background-color: #fec45c;
-  border-top: 2px solid #ffdb89;
-  border-bottom: 3px solid #c79333;
-  transition: 0.2s;
-}
-.btn-secondary:hover {
-  transform: translateY(-2px);
-  box-shadow: #c79333 0px 15px 20px -12px;
-  background-color: #fcd374;
-}
-.btn-lg {
-  font-size: 0.8rem;
-  padding: 1rem 3rem;
-}
 .exclusive p {
   margin-top: 2rem;
   text-transform: uppercase;
@@ -171,7 +125,6 @@
     font-size: 0.8rem;
     line-height: 1.2rem;
   }
-
 }
 
 /* Extra small devices (phones, 600px and down) */
@@ -247,10 +200,13 @@
 }
 
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}

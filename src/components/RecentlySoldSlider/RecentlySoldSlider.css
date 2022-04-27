@@ -2,8 +2,7 @@
   background-color: #f4f7ff;
   padding: 2rem;
   padding-bottom: 4rem;
-
-  box-shadow: inset 0px 10px 35px rgba(121, 40, 187, 0.39);
+  box-shadow: inset 0px 10px 35px var(--color-primary-dark);
 }
 .recently-sold h1 {
   color: var(--color-primary);
@@ -23,10 +22,7 @@
 .slider {
   overflow: hidden;
   display: flex;
-  /* flex-wrap: wrap; */
   justify-content: space-between;
-  /* width: 99%; */
-  /* margin: 0 auto; */
 }
 
 .slide {

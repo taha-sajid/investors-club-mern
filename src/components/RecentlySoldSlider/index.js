@@ -2,7 +2,7 @@ import React, { useEffect, useState } from "react";
 import "./RecentlySoldSlider.css";
 import { ImPriceTags } from "react-icons/im";
 import { IoIosPricetag } from "react-icons/io";
-import sliderData from "./RecentlySoldSliderData";
+import sliderData from "../../assets/RequiredData/RecentlySoldSliderData";
 
 const RecentlySoldSlider = () => {
   const [currentSlide, setCurrentSlide] = useState(0);

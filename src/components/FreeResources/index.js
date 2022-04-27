@@ -1,6 +1,6 @@
 import React from "react";
 import "./FreeResources.css";
-import cardData from "./FreeResourcesData";
+import cardData from "../../assets/RequiredData/FreeResourcesData";
 const FreeResources = () => {
   return (
     <div className="resources-section">
