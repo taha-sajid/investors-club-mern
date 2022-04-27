@@ -9,7 +9,7 @@
   box-shadow: 0 6px 5px #410a68b4;
   background-color: #530d8544;
 }
-.nav-content{
+.nav-content {
   width: 100%;
   display: flex;
   justify-content: space-between;
@@ -120,10 +120,10 @@
   width: 10px;
   margin-top: 3px;
 }
-.nav-active{
-opacity: 100;
+.nav-active {
+  opacity: 100;
 }
-.nav-logo a{
+.nav-logo a {
   display: block;
 }
 .active button div:first-child {
@@ -138,7 +138,7 @@ opacity: 100;
 }
 
 /* Extra small devices (phones, 600px and down) */
-@media only screen and (max-width: 768px) {
+@media only screen and (max-width: 992px) {
   .nav-logo .logo-mobile {
     display: block;
     margin-left: -1rem;
@@ -155,12 +155,14 @@ opacity: 100;
   }
 }
 
-
 /* Medium devices (landscape tablets, 768px and up) */
-@media only screen and (min-width: 768px) {}
+@media only screen and (min-width: 768px) {
+}
 
 /* Large devices (laptops/desktops, 992px and up) */
-@media only screen and (min-width: 992px) {}
+@media only screen and (min-width: 992px) {
+}
 
 /* Extra large devices (large laptops and desktops, 1200px and up) */
-@media only screen and (min-width: 1200px) {}
+@media only screen and (min-width: 1200px) {
+}

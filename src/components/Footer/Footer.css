@@ -36,7 +36,7 @@
   display: flex;
 }
 .terms-and-conditions-link{
-  margin-left: 7rem;
+  margin-left: 5rem;
 }
 .footer-links a {
   display: block;
@@ -78,7 +78,7 @@
     font-size: 0.75rem;
   }
   .terms-and-conditions-link {
-    width: 50%;
+    /* width: 50%; */
   }
 
   .footer-icons {
