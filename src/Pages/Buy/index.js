@@ -7,7 +7,7 @@ const Buy = () => {
     BuyerHeaderData;
   console.log(isHomeOpen);
   return (
-    <div style={{ backgroundColor: "cadetblue" }}>
+    <div>
       <>
         <Header
           heading={heading}
@@ -17,7 +17,7 @@ const Buy = () => {
           backgroundImage={backgroundImage}
           isHomeOpen={isHomeOpen}
         />
-        <h1 style={{ color: "white" }}> buy </h1>
+        <h1 style={{ textAlign: "center",  color: '#4a1172'}} > BUY </h1>
       </>
     </div>
   );

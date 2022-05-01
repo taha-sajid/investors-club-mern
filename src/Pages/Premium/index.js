@@ -15,7 +15,8 @@ const Premium = () => {
         heading={heading}
         headerImage={headerImage}
       />
-      Premium
+        <h1 style={{ textAlign: "center",  color: '#4a1172'}} > PREMIUM </h1>
+
     </div>
   );
 };

@@ -2,6 +2,8 @@
   min-height: 100vh;
   padding: 0rem 3rem;
   color: #424144;
+  max-width: 85rem;
+  margin: 0 auto
 }
 .latest-addition-section .heading {
   display: flex;
@@ -23,8 +25,8 @@
   display: flex;
   flex-wrap: wrap;
   justify-content: space-between;
+  ;
   margin-top: -1rem;
-  max-width: 85rem;
 }
 .addition-cards {
   cursor: pointer;

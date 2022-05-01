@@ -17,7 +17,7 @@ const Header = ({
   const [isHome, setIsHome] = useState(isHomeOpen);
   return (
     <div
-      className="header"
+      className={isHome ? "header" : "header header-bottom-radius"}
       style={{
         backgroundImage: `${
           isHome

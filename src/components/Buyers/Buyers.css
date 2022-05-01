@@ -1,6 +1,9 @@
 .buyers {
   padding: 0rem 3rem;
   padding-top: 5rem;
+  max-width: 85rem;
+  margin: 0 auto;
+
 }
 .buyers-section-heading {
   color: var(--color-primary);
@@ -13,7 +16,6 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  max-width: 85rem;
 }
 .buyers-section-content h2 {
   color: black;

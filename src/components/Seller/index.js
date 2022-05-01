@@ -5,6 +5,7 @@ import url from "../../assets/images/seller.jpg";
 const Seller = () => {
   return (
     <div className="seller-section">
+      <div className="seller-content">
       <div className="seller-heading">
         <h2>Sellers</h2>
       </div>
@@ -13,6 +14,7 @@ const Seller = () => {
           Don't pay insane fees to lazy brokers. Sell faster, keep more profit,
           and get the VIP treatment.
         </p>
+      </div>
       </div>
       <div className="seller-cards">
         {CardData.map((card, index) => {

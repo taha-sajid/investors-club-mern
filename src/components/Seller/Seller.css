@@ -4,6 +4,10 @@
   margin-top: -14rem;
   padding: 8rem 3rem;
 }
+.seller-content {
+  max-width: 85rem;
+  margin: 0 auto;
+}
 .seller-section h2 {
   color: var(--color-primary);
   font-weight: 900;
@@ -15,11 +19,15 @@
   width: 40%;
   line-height: 1.8rem;
   font-size: 1.3rem;
+
+  /* max-width: 85rem; */
+  /* margin: 0 auto; */
 }
 .seller-cards {
   display: flex;
   flex-wrap: wrap;
   max-width: 85rem;
+  margin: 0 auto;
 }
 .seller-card {
   background-color: white;
@@ -54,9 +62,9 @@
   display: flex;
   justify-content: space-between;
   flex-wrap: wrap;
-  margin-top: 5rem;
   max-width: 85rem;
-
+  margin: 0 auto;
+  margin-top: 5rem;
 }
 
 .seller-slider {

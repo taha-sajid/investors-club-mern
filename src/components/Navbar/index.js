@@ -7,7 +7,7 @@ import {
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isNavActive, setIsNavActive] = useState(false);
+  const [isNavActive, setIsNavActive] = useState(true);
   return (
     <div className="main-nav">
       <nav

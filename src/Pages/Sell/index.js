@@ -15,7 +15,7 @@ const Sell = () => {
         backgroundImage={backgroundImage}
         isHomeOpen={isHomeOpen}
       />
-      Sell
+      <h1 style={{ textAlign: "center", color: "#4a1172" }}> SELL </h1>
     </div>
   );
 };

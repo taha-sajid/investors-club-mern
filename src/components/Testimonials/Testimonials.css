@@ -1,5 +1,7 @@
 .testimonials-section {
   display: flex;
+  max-width: 85rem;
+  margin: 0 auto;
 }
 .testimonials-section h3 {
   width: 80%;
@@ -8,9 +10,6 @@
   line-height: 1.5rem;
   color: var(--color-primary);
   font-weight: 900;
-}
-.testiomonias-sliders {
-  max-width: 85rem;
 }
 .testimonials-slide {
   display: flex;

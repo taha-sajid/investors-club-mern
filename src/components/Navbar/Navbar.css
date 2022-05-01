@@ -12,6 +12,7 @@
   justify-content: space-between;
   align-items: center;
   max-width: 85rem;
+  margin: 0 auto;
 }
 
 .nav-logo {

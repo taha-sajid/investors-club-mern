@@ -5,13 +5,18 @@
   height: max-content;
 }
 
+.header-bottom-radius {
+  border-bottom-left-radius: 1.5rem;
+}
+
 .header-section {
-  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   padding: 0rem 3rem;
   padding-bottom: 5rem;
+  margin: 0 auto;
   max-width: 85rem;
+  margin-top: 5rem;
 }
 .header-content {
   width: 50%;
@@ -68,6 +73,13 @@
 .header-image img {
   height: 25rem;
   border-radius: 1rem;
+}
+
+@media only screen and (max-width: 543px) {
+  .header-content button {
+    width: 100%;
+    margin-bottom: 1rem;
+  }
 }
 
 /* Extra small devices (phones, 600px and down) */

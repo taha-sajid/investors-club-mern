@@ -4,6 +4,8 @@
 }
 
 .resources-section .heading {
+  max-width: 85rem;
+  margin: 0 auto;
   margin-bottom: 3rem;
   color: var(--color-primary);
 }
@@ -12,10 +14,11 @@
   display: flex;
   flex-wrap: wrap;
   max-width: 85rem;
+  margin: 0 auto;
 }
 .resources-card {
   transition: 0.3s;
-  width: 24.5rem;
+  width: 31%;
   margin: 0 auto;
   cursor: pointer;
   border-bottom-left-radius: 1.5rem;
