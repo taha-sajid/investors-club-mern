@@ -1,6 +1,6 @@
 import React from "react";
 import "./Footer.css";
-import { Logo } from "../../assets/RequiredData/Svgs";
+import { LogoFooter } from "../../assets/RequiredData/Svgs";
 import {
   FaFacebookF,
   FaLinkedinIn,
@@ -14,7 +14,7 @@ const Footer = () => {
         <div className="footer-icons">
           <div className="logo">
             <i>
-              <Logo />
+              <LogoFooter />
             </i>
           </div>
           <i>

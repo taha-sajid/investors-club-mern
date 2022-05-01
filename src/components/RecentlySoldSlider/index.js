@@ -11,7 +11,7 @@ const RecentlySoldSlider = () => {
   );
 
   function getWindowDimensions() {
-    const { innerWidth: width, innerHeight: height } = window;
+    const { innerWidth: width, innerHeight: height } = window;                            
     return {
       width,
       height,
@@ -36,7 +36,6 @@ const RecentlySoldSlider = () => {
       }
     }, 2000);
   }, [currentSlide]);
-  console.log(windowDimensions.width);
   return (
     <div className="recently-sold">
       <div className="heading">

@@ -1,18 +1,17 @@
 .header {
-  background-image: linear-gradient(#4a1172af, #4a1172af),
-    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
   background-color: #530d85;
   background-repeat: repeat-x;
   font-weight: 900;
-  background-size: 30%;
+  height: max-content;
 }
 
 .header-section {
-  margin-top: 4rem;
+  margin-top: 5rem;
   display: flex;
   justify-content: space-between;
   padding: 0rem 3rem;
   padding-bottom: 5rem;
+  max-width: 85rem;
 }
 .header-content {
   width: 50%;
@@ -22,12 +21,33 @@
   color: var(--color-secondary);
   font-size: 1.2rem;
 }
+.header-content-heading .slogon {
+  color: white;
+  margin-top: 2.5rem;
+  font-size: 1.1rem;
+  font-weight: 400;
+}
 .header-content-features {
   margin-top: 1.5rem;
 }
 .header-content-features p {
   color: white;
   font-weight: 900;
+}
+.header-content button {
+  gap: 1rem;
+  margin-right: 1rem;
+  box-shadow: none;
+  font-weight: 900;
+}
+.header-content button:hover {
+  box-shadow: none;
+}
+.header-content button:last-child {
+  color: var(--color-secondary);
+  background-color: transparent;
+  border-left-color: 2px solid var(--color-secondary);
+  border-right-color: 2px solid green;
 }
 .feature {
   font-size: 0.8rem;
@@ -53,10 +73,11 @@
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
   .header {
-    height: 90vh;
+    height: max-content;
   }
   .header-section {
     padding: 0rem 1.5rem;
+    padding-bottom: 4rem;
   }
   .header-content {
     width: 100%;

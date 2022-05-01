@@ -23,6 +23,7 @@
   overflow: hidden;
   display: flex;
   justify-content: space-between;
+  max-width: 85rem;
 }
 
 .slide {

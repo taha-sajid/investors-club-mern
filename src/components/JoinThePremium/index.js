@@ -14,6 +14,7 @@ const JoinThePremium = () => {
             sell your online business
           </button>
           <h3>fast, fair & risk free</h3>
+          
         </div>
       </div>
     </div>

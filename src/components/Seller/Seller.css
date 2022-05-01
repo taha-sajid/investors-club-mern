@@ -19,6 +19,7 @@
 .seller-cards {
   display: flex;
   flex-wrap: wrap;
+  max-width: 85rem;
 }
 .seller-card {
   background-color: white;
@@ -54,6 +55,8 @@
   justify-content: space-between;
   flex-wrap: wrap;
   margin-top: 5rem;
+  max-width: 85rem;
+
 }
 
 .seller-slider {
@@ -155,7 +158,7 @@
   .seller-section .seller-slogon p {
     width: 60%;
   }
-  .seller-cards{
+  .seller-cards {
     justify-content: space-evenly;
   }
   .seller-card {

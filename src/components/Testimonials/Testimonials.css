@@ -9,6 +9,9 @@
   color: var(--color-primary);
   font-weight: 900;
 }
+.testiomonias-sliders {
+  max-width: 85rem;
+}
 .testimonials-slide {
   display: flex;
   padding: 5rem 3rem;
@@ -59,7 +62,7 @@
     margin-left: 0rem;
     padding: 0;
   }
-  .testimonials-slide-data .description{
+  .testimonials-slide-data .description {
     font-size: 0.85rem;
   }
   .testimonials-slide .image img {

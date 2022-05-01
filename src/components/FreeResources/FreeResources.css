@@ -11,12 +11,12 @@
 .free-resources-cards {
   display: flex;
   flex-wrap: wrap;
-  gap: 1rem;
-  margin: 0 auto;
+  max-width: 85rem;
 }
 .resources-card {
   transition: 0.3s;
   width: 24.5rem;
+  margin: 0 auto;
   cursor: pointer;
   border-bottom-left-radius: 1.5rem;
   border-bottom-right-radius: 1.5rem;

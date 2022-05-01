@@ -1,10 +1,13 @@
 import React, { useState } from "react";
 import "./Navbar.css";
-import { NavLogo } from "../../assets/RequiredData/Svgs";
+import {
+  NavLogoMobile,
+  NavLogoLargeScreen,
+} from "../../assets/RequiredData/Svgs";
+import { Link } from "react-router-dom";
 
 const Navbar = () => {
   const [isNavActive, setIsNavActive] = useState(false);
-
   return (
     <div className="main-nav">
       <nav
@@ -21,19 +24,16 @@ const Navbar = () => {
       </nav>
       <div className="nav-content">
         <div className="nav-logo">
-          <NavLogo className="logo-mobile" />
-
-          <h4>
-            Investors<span>club </span>
-          </h4>
-          <a
-          // style={
-          //   isNavActive ? `${{ display: "block" }}` : `${{ display: "none" }}`
-          // }
-          >
-            buy
-          </a>
-          <a>sell</a>
+          <NavLogoMobile className="logo-mobile" />
+          <Link to={"/"}>
+            {/* <NavLogoLargeScreen className="logo-large" /> */}
+            <h4>
+              Investors<span>club </span>
+            </h4>
+          </Link>
+          <Link to="/buy">buy</Link>
+          <Link to="/sell">sell</Link>
+          <Link to={"/premium"}>Premium</Link>
         </div>
         <div className="nav-btn">
           <button className="login">login</button>
