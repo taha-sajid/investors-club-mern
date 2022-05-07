@@ -7,22 +7,22 @@ import {
 import { Link } from "react-router-dom";
 
 const Navbar = () => {
-  const [isNavActive, setIsNavActive] = useState(true);
+  const [isNavActive, setIsNavActive] = useState(false);
   return (
-    <div className="main-nav">
+    <div className={isNavActive ? "main-nav cover" : "main-nav"}>
       <nav
         className={isNavActive ? "nav-toggle nav-active" : "nav-toggle"}
         onClick={() => {
-          setIsNavActive(true);
+          setIsNavActive((prev) => !prev);
           console.log("click");
         }}
       >
-        <button className="hamburger">
-          <div className="line1"></div>
-          <div className="line2"></div>
-        </button>
+        <div className="hamburger">
+          <span className="line1"></span>
+          <span className="line2"></span>
+        </div>
       </nav>
-      <div className="nav-content">
+      <div className={isNavActive ? "nav-content nav-active" : "nav-content"}>
         <div className="nav-logo">
           <NavLogoMobile className="logo-mobile" />
           <Link to={"/"}>

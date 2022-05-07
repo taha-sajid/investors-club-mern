@@ -51,8 +51,6 @@
 .header-content button:last-child {
   color: var(--color-secondary);
   background-color: transparent;
-  border-left-color: 2px solid var(--color-secondary);
-  border-right-color: 2px solid green;
 }
 .feature {
   font-size: 0.8rem;

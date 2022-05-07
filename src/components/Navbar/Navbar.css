@@ -44,7 +44,6 @@
   font-weight: 700;
   font-size: 1.2rem;
   text-transform: capitalize;
-  /* background-color: cadetblue; */
 }
 .nav-logo h4 span {
   font-weight: 200;
@@ -105,53 +104,54 @@
   position: fixed;
   z-index: 1;
   display: none;
+  transform: all 0.3s ease-in-out;
 }
-.nav-toggle .hamburger {
-  display: flex;
-  flex-direction: column;
-  border: none;
-  background-color: var(--color-primary);
-  cursor: pointer;
-}
-.nav-toggle .hamburger div {
-  cursor: pointer;
-  color: #c79333;
-  margin-bottom: 2px;
-  background-color: var(--color-primary);
-  display: inline-block;
+.nav-toggle .hamburger span {
+  display: block;
+  margin-top: 4px;
+  margin-bottom: 4px;
   border-bottom: 2px solid white;
-  width: 20px;
 }
-.nav-toggle .hamburger div:last-child {
-  width: 10px;
-  margin-top: 3px;
+.nav-toggle .hamburger .line1 {
+  width: 24px;
 }
-.nav-active {
-  opacity: 100;
+.nav-toggle .hamburger .line2 {
+  width: 12px;
 }
 .nav-logo a {
   display: block;
 }
-.active button div:first-child {
-  width: 25px;
-  transform: rotate(45deg);
-  border-bottom: 3px solid white;
+.nav-active .hamburger {
+  transform: all 0.3s ease-in-out;
 }
-.active button div:last-child {
-  transform: rotate(-45deg);
-  width: 30px;
-  border-bottom: 3px solid white;
+.nav-active .hamburger .line1 {
+  transform: translateY(3px) rotate(45deg);
+  width: 15px;
 }
-
+.nav-active .hamburger .line2 {
+  transform: translateY(-3px) rotate(-45deg);
+  width: 15px;
+}
+.nav-content {
+  /* display: none; */
+}
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
   .main-nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
+    display: flex;
+  }
+  .cover {
+    height: 100vh;
+    overflow-y: hidden;
   }
   .nav-logo .logo-mobile {
     display: block;
     margin-left: -1rem;
+  }
+  .nav-toggle {
+    display: flex;
   }
   .nav-logo h4,
   .nav-logo a {
@@ -160,8 +160,27 @@
   .nav-btn {
     display: none;
   }
-  .nav-toggle {
+  .nav-btn button:first-child {
+    color: var(--color-secondary);
+  }
+  .nav-active .nav-logo a,
+  .nav-active .nav-btn {
+    display: block;
+    margin: 0;
+  }
+  .nav-active {
+    flex-direction: column;
+  }
+  .nav-active .nav-logo {
+    flex-direction: column;
+  }
+  .nav-active .nav-btn {
+    width: 100%;
     display: flex;
+    flex-direction: column;
+  }
+  .nav-active .nav-btn button {
+    margin-bottom: 1rem;
   }
 }
 
