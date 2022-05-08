@@ -6,7 +6,7 @@
   color: white;
   box-shadow: 0 6px 5px #2f004f75;
 }
-.main-nav button:first-child{
+.main-nav button:first-child {
   cursor: pointer;
   background: none;
   border: none;
@@ -114,9 +114,8 @@
 .is-active .nav-toggle {
   background-color: white;
 }
-.is-active .nav-toggle .hamburger span{
+.is-active .nav-toggle .hamburger span {
   border-bottom: 2px solid var(--color-primary);
-
 }
 .nav-toggle .hamburger span {
   display: block;
@@ -197,7 +196,17 @@
     height: 100vh;
     z-index: 50;
     transform: translate(-50%, -50%);
-    padding: 30% 20%;
+    background-color: cadetblue;
+    display: flex;
+    justify-content: center;
+  }
+  .is-active .nav-logo {
+    /* background-color: orangered; */
+    height: max-content;
+  }
+  .is-active .nav-btn {
+    /* background-color: chartreuse; */
+    width: 60%;
   }
 }
 
