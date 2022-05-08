@@ -6,6 +6,11 @@
   color: white;
   box-shadow: 0 6px 5px #2f004f75;
 }
+.main-nav button:first-child{
+  cursor: pointer;
+  background: none;
+  border: none;
+}
 .nav-content {
   width: 100%;
   display: flex;
@@ -102,9 +107,16 @@
   cursor: pointer;
   border: 1px solid hsla(0, 0%, 100%, 0.3);
   position: fixed;
-  z-index: 1;
+  z-index: 100;
   display: none;
   transform: all 0.3s ease-in-out;
+}
+.is-active .nav-toggle {
+  background-color: white;
+}
+.is-active .nav-toggle .hamburger span{
+  border-bottom: 2px solid var(--color-primary);
+
 }
 .nav-toggle .hamburger span {
   display: block;
@@ -132,19 +144,13 @@
   transform: translateY(-3px) rotate(-45deg);
   width: 15px;
 }
-.nav-content {
-  /* display: none; */
-}
+
 /* Extra small devices (phones, 600px and down) */
 @media only screen and (max-width: 992px) {
   .main-nav {
     padding-top: 1.5rem;
     padding-bottom: 1.5rem;
     display: flex;
-  }
-  .cover {
-    height: 100vh;
-    overflow-y: hidden;
   }
   .nav-logo .logo-mobile {
     display: block;
@@ -181,6 +187,17 @@
   }
   .nav-active .nav-btn button {
     margin-bottom: 1rem;
+  }
+  .is-active .nav-content {
+    position: absolute;
+    background-color: var(--color-primary);
+    top: 50%;
+    left: 50%;
+    opacity: 0.97;
+    height: 100vh;
+    z-index: 50;
+    transform: translate(-50%, -50%);
+    padding: 30% 20%;
   }
 }
 

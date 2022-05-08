@@ -9,7 +9,7 @@ import { Link } from "react-router-dom";
 const Navbar = () => {
   const [isNavActive, setIsNavActive] = useState(false);
   return (
-    <div className={isNavActive ? "main-nav cover" : "main-nav"}>
+    <div className={isNavActive ? "main-nav is-active" : "main-nav"}>
       <nav
         className={isNavActive ? "nav-toggle nav-active" : "nav-toggle"}
         onClick={() => {
@@ -17,10 +17,10 @@ const Navbar = () => {
           console.log("click");
         }}
       >
-        <div className="hamburger">
+        <button className="hamburger">
           <span className="line1"></span>
           <span className="line2"></span>
-        </div>
+        </button>
       </nav>
       <div className={isNavActive ? "nav-content nav-active" : "nav-content"}>
         <div className="nav-logo">
