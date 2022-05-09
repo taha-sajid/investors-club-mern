@@ -23,8 +23,8 @@ function App() {
       <Routes>
         <Route path="/" element={<Home />} />
         {/* <Route path="/buy" element={<Navigate replace to="/buy" />} /> */}
-        <Route path="/buy" element={<Buy />} />
-        <Route path="/sell" element={<Sell />} />
+        <Route path="/buy-online-business" element={<Buy />} />
+        <Route path="/sell-your-website" element={<Sell />} />
         <Route path="/premium" element={<Premium />} />
       </Routes>
       {/* <Buy /> */}

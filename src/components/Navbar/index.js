@@ -1,14 +1,24 @@
-import React, { useState } from "react";
+import React, { useEffect, useState } from "react";
 import { Link } from "react-router-dom";
+import "./Navbar.css";
 import {
   NavLogoMobile,
   NavLogoLargeScreen,
 } from "../../assets/RequiredData/Svgs";
 
-import "./Navbar.css";
-
 const Index = () => {
   const [isNavActive, setIsNavActive] = useState(false);
+  console.log(window);
+  function disableBodyScroll() {
+    document.getElementsByTagName("body")[0].classList.add("stop-scroll");
+  }
+  function enableBodyScroll() {
+    document.getElementsByTagName("body")[0].classList.remove("stop-scroll");
+  }
+  useEffect(() => {
+    if (isNavActive) disableBodyScroll();
+    else enableBodyScroll();
+  }, [isNavActive]);
 
   return (
     <>
@@ -36,13 +46,13 @@ const Index = () => {
               </div>
             </div>
             <div className="nav-menu">
-              <Link to={"/buy"} href="#">
+              <Link to={"/buy-online-business"} href="#">
                 buy
               </Link>
-              <Link to={"/sell"} href="#">
+              <Link to={"/sell-your-website"} href="#">
                 sell
               </Link>
-              <Link to={"/premium"}>premium</Link>
+              <Link to={"/premium"} className="premium">premium</Link>
             </div>
           </div>
           <div className="nav-btn">

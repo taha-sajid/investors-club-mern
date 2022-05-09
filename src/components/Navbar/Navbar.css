@@ -1,5 +1,6 @@
-nav {
-  /* filter: blur(2px); */
+.stop-scroll {
+  height: 100%;
+  overflow: hidden;
 }
 .navigation {
   display: flex;
@@ -34,6 +35,8 @@ nav {
   width: 100%;
   justify-content: space-between;
   align-items: center;
+  max-width: 85rem;
+  margin: 0 auto;
 }
 .nav-logo a {
   cursor: pointer;
@@ -48,6 +51,10 @@ nav {
 }
 .nav-logo a:hover {
   color: rgb(167, 167, 167);
+}
+
+.nav-logo a:first-child {
+  margin-left: 0rem;
 }
 .nav-logo a span {
   font-weight: 300;
@@ -65,9 +72,15 @@ nav {
   transition: all 0.3s;
   letter-spacing: 1px;
   font-weight: 600;
+
 }
 .nav-menu a:hover {
   color: rgb(197, 193, 193);
+}
+.premium{
+  background-image: linear-gradient(45deg,#9600ff,#ebe833);
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .nav-btn button {
   font-weight: 700;
@@ -86,7 +99,7 @@ nav {
 }
 @media only screen and (max-width: 992px) {
   .navigation {
-    padding: 1.6rem 3rem;
+    padding: 1.6rem 1.5rem;
   }
   .nav-toggle {
     position: absolute;
@@ -103,10 +116,10 @@ nav {
     border: 1px solid hsla(0, 0%, 100%, 0.3);
     position: fixed;
     z-index: 100;
-    transform: all 0.3s ease-in-out;
+    transition: all 0.3s ease-in-out;
   }
   .nav-active .nav-toggle {
-    background-color: white;
+    background: white;
   }
   .nav-active .nav-toggle .hamburger span {
     border-bottom: 2px solid var(--color-primary);
@@ -116,15 +129,13 @@ nav {
     margin-top: 4px;
     margin-bottom: 4px;
     border-bottom: 2px solid white;
+    transition: all 0.3s ease-in-out;
   }
   .nav-toggle .hamburger .line1 {
     width: 24px;
   }
   .nav-toggle .hamburger .line2 {
     width: 12px;
-  }
-  .nav-active .hamburger {
-    transform: all 0.3s ease-in-out;
   }
   .nav-active .hamburger .line1 {
     transform: translateY(3px) rotate(45deg);
@@ -138,6 +149,11 @@ nav {
   .nav-logo-menu .nav-logo a,
   .nav-logo-menu .nav-menu {
     display: none;
+  }
+  .nav-active .nav-logo-menu .nav-logo a,
+  .nav-active .nav-logo-menu .nav-menu {
+    display: flex;
+    transition: 0.3s all ease-in-out;
   }
   .logo-small-screen {
     display: block;
@@ -156,6 +172,7 @@ nav {
     z-index: 50;
     opacity: 0.95;
     background-color: var(--color-primary);
+    transition: 0.3s all ease-in-out;
   }
 
   .nav-menu a {
