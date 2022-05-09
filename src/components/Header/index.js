@@ -1,6 +1,5 @@
 import React, { useState } from "react";
 import "./Header.css";
-// import url from "../../assets/images/hero-image.png";
 import Navbar from "../Navbar";
 import { BsCheck2 } from "react-icons/bs";
 const Header = ({
