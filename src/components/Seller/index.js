@@ -6,15 +6,15 @@ const Seller = () => {
   return (
     <div className="seller-section">
       <div className="seller-content">
-      <div className="seller-heading">
-        <h2>Sellers</h2>
-      </div>
-      <div className="seller-slogon">
-        <p>
-          Don't pay insane fees to lazy brokers. Sell faster, keep more profit,
-          and get the VIP treatment.
-        </p>
-      </div>
+        <div className="seller-heading">
+          <h2>Sellers</h2>
+        </div>
+        <div className="seller-slogon">
+          <p>
+            Don't pay insane fees to lazy brokers. Sell faster, keep more
+            profit, and get the VIP treatment.
+          </p>
+        </div>
       </div>
       <div className="seller-cards">
         {CardData.map((card, index) => {
@@ -44,7 +44,7 @@ const Seller = () => {
                 I recently sold an affiliate website on Investors Club and the
                 process was quick, simple, and very hands off. Andrej and the
                 team definitely know what they are doing when it comes to online
-                business; 
+                business;
               </p>
               <h4>Sammy Dolan</h4>
               <p className="field">Entrepreneur</p>

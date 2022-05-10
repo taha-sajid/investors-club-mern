@@ -18,7 +18,7 @@ const Buyers = () => {
             {CardData.map((card, index) => {
               const { title, icon, description, button } = card;
               return (
-                <div className="features-card" key={index}>
+                <div className="buyer-features-card" key={index}>
                   <div className="features-icon">
                     <i>{icon}</i>
                   </div>

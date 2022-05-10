@@ -1,5 +1,5 @@
 .seller-section {
-  background-color: #f4f7ff;
+  background-color: var(--background-color);
   color: #786f82;
   margin-top: -14rem;
   padding: 8rem 3rem;

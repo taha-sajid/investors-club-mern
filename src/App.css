@@ -15,8 +15,9 @@
   --color-secondary-light: #ffdb89;
   --color-secondary-dark: #c79333;
   --btn-secondary-hover-color: #fcd374;
+  --background-color: #f4f7ff;
+  --text-color: gray;
 }
-
 
 .btn-primary {
   background: none;
@@ -51,7 +52,7 @@
   box-shadow: #c7933370 0px 10px 15px -3px, #fec45c 0px 4px 6px -2px;
   background-color: var(--color-secondary);
   border-top: 2px solid var(--color-secondary-light);
-  border-bottom: 3px solid var(--color-secondary-dark);;
+  border-bottom: 3px solid var(--color-secondary-dark);
   transition: 0.2s;
 }
 .btn-secondary:hover {

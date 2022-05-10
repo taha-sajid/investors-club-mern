@@ -1415,6 +1415,82 @@ const HeaderImageSVG = () => {
     </svg>
   );
 };
+
+const CheckStarSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-exclusive-deals.e221603b.svg"
+      alt=""
+    />
+  );
+};
+
+const EyeSVG2 = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-fully-vetted.c61eac55.svg"
+      alt=""
+    />
+  );
+};
+
+const CommunicationSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-no-fees.d8db30d4.svg"
+      alt=""
+    />
+  );
+};
+
+const LegalDocSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-doc.8ff64906.svg"
+      alt=""
+    />
+  );
+};
+const NofeeSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-due-dilligence.88341f4b.svg"
+      alt=""
+    />
+  );
+};
+const SiteTransferSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-apas.06ba72ae.svg"
+      alt=""
+    />
+  );
+};
+const FullInspectionSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-exclusive-deals.e221603b.svg"
+      alt=""
+    />
+  );
+};
+const SOPSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-sops.8bc73c30.svg"
+      alt=""
+    />
+  );
+};
+const SupportSVG = () => {
+  return (
+    <img
+      src="https://investors.club/static/media/deco-live-support.14215d5f.svg"
+      alt=""
+    />
+  );
+};
 export {
   StarSVG,
   CupSVG,
@@ -1429,4 +1505,13 @@ export {
   NavLogoMobile,
   LogoFooter,
   HeaderImageSVG,
+  CheckStarSVG,
+  CommunicationSVG,
+  EyeSVG2,
+  LegalDocSVG,
+  SupportSVG,
+  FullInspectionSVG,
+  SOPSVG,
+  NofeeSVG,
+  SiteTransferSVG,
 };

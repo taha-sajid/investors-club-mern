@@ -8,7 +8,7 @@ import {
 
 const Index = () => {
   const [isNavActive, setIsNavActive] = useState(false);
-  console.log(window);
+
   function disableBodyScroll() {
     document.getElementsByTagName("body")[0].classList.add("stop-scroll");
   }
@@ -46,13 +46,13 @@ const Index = () => {
               </div>
             </div>
             <div className="nav-menu">
-              <Link to={"/buy-online-business"} href="#">
+              <Link to={"/buy-online-business"} className="visited-link">
                 buy
               </Link>
-              <Link to={"/sell-your-website"} href="#">
-                sell
+              <Link to={"/sell-your-website"} className="visited-link">sell</Link>
+              <Link to={"/premium"} className="premium">
+                premium
               </Link>
-              <Link to={"/premium"} className="premium">premium</Link>
             </div>
           </div>
           <div className="nav-btn">
