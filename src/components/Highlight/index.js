@@ -5,7 +5,9 @@ const index = () => {
   return (
     <>
       <div className="highlight-section">
-        <CurrentPosition />
+        <div className="highlight-container">
+          <CurrentPosition />
+        </div>
       </div>
     </>
   );

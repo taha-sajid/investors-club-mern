@@ -30,6 +30,7 @@ const Header = ({
         ),url(${backgroundImage})`
         }`,
         backgroundSize: `${isHome ? "30%" : "cover"}`,
+        backgroundPosition: "100% 0",
       }}
     >
       <Navbar />

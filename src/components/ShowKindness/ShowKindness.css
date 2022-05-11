@@ -22,3 +22,17 @@
   margin-bottom: 1.5rem;
   font-size: 1.03rem;
 }
+
+@media only screen and (max-width: 992px) {
+  .show-kindness-section {
+    padding: 0rem 1.5rem;
+    padding-bottom: 3rem;
+    margin-top: 0;
+  }
+  .show-kindness-section h1 {
+    width: 100%;
+  }
+  .show-kindness {
+    width: 100%;
+  }
+}
