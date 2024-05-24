@@ -1,0 +1,27 @@
+.monitization-info-form-container {
+    align-items: center;
+}
+
+.monitization-info-form-container .form-heading h5 {
+    margin-bottom: 1rem;
+}
+
+
+.monitization-info-form-container .form-options-container {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 1.5rem;
+}
+
+.monitization-info-form-container .form-options-container button {
+    width: 31%;
+    display: flex;
+    align-items: center;
+    gap: .5rem;
+    border: 1px solid var(--color);
+    text-transform: capitalize;
+}
+
+.monitization-info-form-container .form-options-container .btn-secondary {
+    border: none;
+}

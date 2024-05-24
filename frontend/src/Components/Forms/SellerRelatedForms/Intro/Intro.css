@@ -1,0 +1,44 @@
+.intro-container,
+.form-section {
+    position: relative;
+    z-index: 11;
+    /* background-color: cadetblue; */
+}
+
+.intro-container .form-section p {
+    text-align: center;
+    color: var(--text-color);
+    line-height: 1.5rem;
+}
+
+.site-type {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 2rem;
+    margin-top: 3rem;
+}
+
+.site-type .card {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    box-shadow: 1px 1px 10px 1px rgb(207, 203, 203);
+    padding: 1.5rem;
+    width: 18rem;
+    height: 13rem;
+    border-radius: .5rem;
+    cursor: pointer;
+    transition: .3s;
+}
+
+.site-type .card:hover {
+    translate: 0px -10px;
+    box-shadow: 1px 5px 20px 1px rgb(207, 203, 203);
+
+}
+
+.site-type .card h3 {
+    margin-top: 1rem;
+}

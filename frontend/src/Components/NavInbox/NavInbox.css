@@ -1,0 +1,44 @@
+    .messages-block-toggle .messages-list-container {
+        color: var(--text-color);
+        height: 100%;
+        overflow-y: scroll;
+        scrollbar-width: none;
+    }
+
+    /* hide scrollbar */
+    .messages-block-toggle .messages-list-container::-webkit-scrollbar {
+        display: none;
+    }
+
+
+    .messages-block-toggle .messages-list-container .messages-list {
+        font-size: .9rem;
+        border-top: 1px solid var(--color);
+        padding: .5rem 1rem;
+    }
+
+    .messages-block-toggle .messages-list-container .messages-list:last-child {
+        border-bottom: 1px solid var(--color);
+
+    }
+
+    .messages-block-toggle .messages-list-container .messages-list .message-list-footer {
+        display: flex;
+        gap: .5rem;
+        color: var(--color);
+        font-size: .65rem;
+        margin-top: 1rem;
+    }
+
+    .messages-block-toggle .messages-list-container .messages-list .message-list-footer .messenger-name {
+        text-transform: capitalize;
+    }
+
+    .messages-block-toggle .messages-list-container .messages-list .message-list-footer p {
+
+        letter-spacing: .3px;
+    }
+
+    .taha {
+        background-color: cadetblue;
+    }

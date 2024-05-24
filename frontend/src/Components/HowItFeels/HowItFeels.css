@@ -1,0 +1,100 @@
+.how-it-feels-section {
+  background-color: var(--background-color);
+}
+
+.how-it-feels-container {
+  padding: 7rem 3rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.how-it-feels-container .heading {
+  width: 35%;
+  font-weight: 900;
+  font-size: 1.25rem;
+  color: var(--color-primary);
+}
+
+.how-it-feels-container .cards {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+}
+
+.how-it-feels-container .cards .card {
+  display: flex;
+  /* align-items: center; */
+  width: 48%;
+  margin-top: 5rem;
+  margin-bottom: 2rem;
+}
+.how-it-feels-container .cards .card img {
+  width: 15%;
+}
+.how-it-feels-container .cards .card .data {
+  margin-left: 2rem;
+}
+
+.how-it-feels-container .cards .card .data .heading {
+  margin-bottom: 2rem;
+  font-size: 1.1rem;
+  font-weight: 900;
+}
+
+.how-it-feels-container .cards .card .data .description {
+  color: var(--text-color);
+  line-height: 1.5rem;
+}
+
+/* Apply below 768px */
+@media only screen and (max-width: 768px) {
+  .how-it-feels-container {
+    padding: 3rem 1.5rem;
+  }
+  .how-it-feels-container .heading {
+    width: 100%;
+  }
+  .how-it-feels-container .heading h1 {
+    font-size: 1.5rem;
+    font-weight: 900;
+  }
+  .how-it-feels-container .cards {
+    flex-direction: column;
+  }
+  .how-it-feels-container .cards .card {
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    margin-bottom: 0;
+    margin-top: 2rem;
+    /* background-color: cadetblue; */
+  }
+  .how-it-feels-container .cards .card img {
+    width: 15%;
+  }
+  .how-it-feels-container .cards .card .data {
+    margin-left: 0;
+    text-align: center;
+  }
+  .how-it-feels-container .cards .card .data .heading {
+    text-align: center;
+    width: 100%;
+    font-size: 1rem;
+    /* background-color: chartreuse; */
+  }
+  .how-it-feels-container .cards .card .data .description {
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) and (min-width: 544px) {
+}
+
+/* Apply above 992px */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

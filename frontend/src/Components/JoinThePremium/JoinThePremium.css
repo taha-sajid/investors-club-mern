@@ -1,0 +1,90 @@
+.premium-section {
+  background: linear-gradient(#4a1172af, #4a11728a),
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-repeat: repeat-x;
+  background-color: var(--color-primary);
+  background-size: 50%;
+  height: 30rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+
+}
+.premium-section h1 {
+  color: white;
+  font-size: 2.5rem;
+}
+.premium-section .buttons {
+  display: flex;
+}
+.premium-section .buttons button {
+  font-weight: 900;
+  font-size: 1rem;
+  box-shadow: none;
+  margin-right: 1rem;
+  margin-top: 2rem;
+}
+.premium-section .buttons button:hover {
+  box-shadow: var(--color-primary-dark) 0px 15px 20px -12px;
+}
+
+.explore-membership,
+.sell-business {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  color: white;
+  text-transform: uppercase;
+  font-size: 0.85rem;
+}
+.premium-section h3 {
+  margin-top: 0.5rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .premium-section {
+    height: 90vh;
+  }
+  .premium-section h1 {
+    font-size: 1.5rem;
+    text-align: center;
+    padding: 0rem 1rem;
+  }
+  .premium-section .buttons {
+    flex-direction: column;
+  }
+  .premium-section .buttons button {
+    font-size: 0.9rem;
+  }
+  .premium-section .buttons h3 {
+    font-size: 0.9rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+  .premium-section h1{
+    padding: 0 3rem;
+    text-align: center;
+    font-size: 2.1rem;
+  }
+  .premium-section .buttons{
+    display: flex;
+  }
+  .premium-section .buttons button{
+    padding: 1rem 3rem;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

@@ -1,0 +1,250 @@
+.how-it-works-section {
+  background-color: var(--background-color);
+}
+.how-it-works-container {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding-bottom: 5rem;
+}
+
+.how-it-works-container h2 {
+  color: var(--color-primary);
+  text-align: center;
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+.how-it-works-container .slogon {
+  color: var(--text-color);
+  font-size: 1.2rem;
+  text-align: center;
+  margin: 2rem 0rem;
+  margin-bottom: 4rem;
+}
+
+.working-steps-container {
+  width: 60%;
+  margin: 0 auto;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+}
+.step-numb {
+  width: 50%;
+  position: relative;
+  margin-bottom: 3.5rem;
+}
+.step-numb h3 {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 1.3rem;
+}
+.step-numb span {
+  background-color: var(--color-primary);
+  box-shadow: 11px -17px 0px 0px rgba(10, 7, 63, 0.44) inset;
+  box-shadow: -2px 4px 14px 0px rgba(87, 83, 83, 0.52);
+
+  color: var(--color-secondary);
+  border-radius: 50%;
+  height: 60px;
+  width: 60px;
+  font-size: 1.2rem;
+  font-weight: 700;
+  text-align: center;
+  position: relative;
+}
+
+.step-numb span p {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -51%);
+}
+.step-1 .heading,
+.step-3 .heading,
+.step-5 .heading,
+.step-7 .heading {
+  display: flex;
+  flex-direction: row-reverse;
+}
+
+.step-2 .heading,
+.step-4 .heading,
+.step-6 .heading {
+  display: flex;
+}
+.step-1 .heading::before,
+.step-3 .heading::before,
+.step-5 .heading::before {
+  content: "";
+  width: 1px;
+  background-color: black;
+  height: 64px;
+  position: absolute;
+  opacity: 0.2;
+  top: 65px;
+  right: 29px;
+}
+
+.step-2 .heading::before,
+.step-4 .heading::before,
+.step-6 .heading::before {
+  content: "";
+  width: 1px;
+  background-color: black;
+  height: 60px;
+  position: absolute;
+  opacity: 0.2;
+  top: 65px;
+  left: 29px;
+}
+
+.step-2,
+.step-4,
+.step-6 {
+  top: 50%;
+  align-self: flex-end;
+  margin-right: 3.7rem;
+}
+.step-2 h3,
+.step-4 h3,
+.step-6 h3 {
+  margin-left: 2rem;
+}
+.step-2 .description,
+.step-4 .description,
+.step-6 .description {
+  margin-left: 5.7rem;
+}
+
+.step-1 h3,
+.step-3 h3,
+.step-5 h3,
+.step-7 h3 {
+  margin-right: 2rem;
+}
+.step-1 .description,
+.step-3 .description,
+.step-5 .description,
+.step-7 .description {
+  margin-right: 5.7rem;
+  display: flex;
+  justify-content: flex-end;
+  text-align: right;
+}
+.step-numb .description {
+  margin-top: -1rem;
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+  color: var(--text-color);
+}
+.step-4 {
+  margin-top: -2.3rem;
+}
+.step-2 {
+  margin-top: -1.5rem;
+}
+
+/* Apply below 768px */
+@media only screen and (max-width: 768px) {
+  .how-it-works-container {
+    padding: 0rem 1.5rem;
+    padding-bottom: 4rem;
+  }
+  .how-it-works-container h2 {
+    font-size: 1.3rem;
+    padding-top: 2rem;
+  }
+  .how-it-works-container .slogon {
+    font-size: 1.025rem;
+    line-height: 1.5rem;
+    margin-bottom: 2.5rem;
+  }
+  .working-steps-container {
+    width: 100%;
+  }
+  .step-numb {
+    width: 100%;
+    /* background-color: cadetblue; */
+  }
+  .step-1 .heading,
+  .step-3 .heading,
+  .step-5 .heading,
+  .step-7 .heading {
+    flex-direction: row;
+    align-items: center;
+  }
+
+  .step-2 .heading,
+  .step-4 .heading,
+  .step-6 .heading {
+    display: flex;
+    align-items: center;
+  }
+  .step-2,
+  .step-4,
+  .step-6 {
+    top: 50%;
+    align-self: flex-start;
+    /* margin-right: 3.7rem; */
+  }
+  .step-1 .heading::before,
+  .step-3 .heading::before,
+  .step-5 .heading::before {
+    left: 25px;
+    /* height: 65px; */
+  }
+  .step-2 .heading::before,
+  .step-4 .heading::before,
+  .step-6 .heading::before {
+    left: 25px;
+  }
+  .step-1 h3,
+  .step-2 h3,
+  .step-3 h3,
+  .step-4 h3,
+  .step-5 h3,
+  .step-6 h3,
+  .step-7 h3 {
+    margin-left: 1.2rem;
+    font-size: 1rem;
+    font-weight: 900;
+  }
+  .step-2 .description,
+  .step-4 .description,
+  .step-6 .description {
+    margin-left: 4.4rem;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin-top: 0.5rem;
+  }
+  .step-1 .description,
+  .step-3 .description,
+  .step-5 .description,
+  .step-7 .description {
+    margin-left: 4.4rem;
+    display: flex;
+    justify-content: flex-start;
+    text-align: left;
+    font-size: 0.75rem;
+    line-height: 1.1rem;
+    margin-top: 0.5rem;
+    width: 70%;
+  }
+  .step-numb span {
+    height: 50px;
+    width: 50px;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) and (min-width: 544px) {
+}
+
+/* Apply above 992px */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

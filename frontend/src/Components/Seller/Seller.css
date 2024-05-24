@@ -1,0 +1,180 @@
+.seller-section {
+  background-color: var(--background-color);
+  color: #786f82;
+  margin-top: -14rem;
+  padding: 8rem 3rem;
+}
+.seller-content {
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.seller-section h2 {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 1.8rem;
+}
+
+.seller-slogon p {
+  margin-top: 1.5rem;
+  width: 40%;
+  line-height: 1.8rem;
+  font-size: 1.3rem;
+
+  /* max-width: 85rem; */
+  /* margin: 0 auto; */
+}
+.seller-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.seller-card {
+  background-color: white;
+  width: 30.7%;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  margin-top: 6rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 10px 50px;
+  margin-right: 1.6rem;
+}
+.seller-card i {
+  position: absolute;
+  color: yellow;
+  margin-top: -5.5rem;
+  margin-left: 0.5rem;
+}
+.seller-card h3 {
+  color: var(--color-primary);
+  font-weight: 900;
+  margin-top: 0.7rem;
+  margin-bottom: 1.3rem;
+  font-size: 1.3rem;
+}
+
+.seller-card p {
+  line-height: 1.4rem;
+  font-size: 0.9rem;
+  margin-bottom: 0.5rem;
+}
+
+.seller-slider-section {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+  max-width: 85rem;
+  margin: 0 auto;
+  margin-top: 5rem;
+}
+
+.seller-slider {
+  width: 66%;
+}
+.seller-slide {
+  display: flex;
+}
+.customer-image {
+  margin-right: 1.5rem;
+}
+.customer-image img {
+  height: 70px;
+  width: 70px;
+  border-radius: 50%;
+}
+.customer-data .description {
+  line-height: 1.5rem;
+}
+
+.customer-data h4 {
+  color: var(--color-primary);
+  margin-top: 0.8rem;
+}
+.customer-data .field {
+  font-size: 0.8rem;
+  color: gray;
+  margin-top: 0.3rem;
+}
+.seller-buttons {
+  display: flex;
+  flex-direction: column;
+}
+.seller-buttons button {
+  margin-bottom: 1.8rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .seller-section {
+    margin-top: 0rem;
+    padding: 4rem 1.5rem;
+  }
+  .seller-section h2 {
+    font-size: 1.3rem;
+  }
+  .seller-slogon p {
+    width: 100%;
+    font-size: 1rem;
+    line-height: 1.5rem;
+  }
+  .seller-card {
+    margin-right: 0rem;
+    margin-top: 4rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    width: 100%;
+  }
+  .seller-card h3 {
+    font-size: 1rem;
+  }
+  .seller-card p {
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+  .seller-buttons {
+    width: 100%;
+  }
+  .seller-buttons button {
+    margin-bottom: 1.1rem;
+  }
+  .seller-slide .customer-image img {
+    height: 50px;
+    width: 50px;
+  }
+  .seller-slider {
+    margin-top: 3rem;
+    width: 100%;
+  }
+  .customer-data .description {
+    font-size: 0.9rem;
+    line-height: 1.3rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {
+  .seller-section {
+    margin-top: 0rem;
+  }
+  .seller-section .seller-slogon p {
+    width: 60%;
+  }
+  .seller-cards {
+    justify-content: space-evenly;
+  }
+  .seller-card {
+    width: 30%;
+    margin-right: 0;
+  }
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

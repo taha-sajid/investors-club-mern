@@ -1,0 +1,214 @@
+.buyers {
+  padding: 0rem 3rem;
+  padding-top: 5rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.buyers-section-heading {
+  color: var(--color-primary);
+  margin-bottom: 5rem;
+}
+.buyers-section-heading h1 {
+  width: 50%;
+}
+.buyers-section-content {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+.buyers-section-content h2 {
+  color: black;
+  font-weight: 900;
+}
+.buyers-card h2,
+.buyers-images h2 {
+  margin-bottom: 1rem;
+  color: rgb(58, 57, 57);
+}
+.buyers-card p {
+  color: rgb(54, 52, 52);
+  font-size: 0.9rem;
+}
+.buyers-images p {
+  font-size: 0.9rem;
+  color: gray;
+}
+.buyers-images h2 {
+  color: rgb(104, 102, 102);
+  margin-top: 1.8rem;
+}
+.buyers-images p {
+  margin-bottom: 1rem;
+}
+
+.buyers-card {
+  width: 50%;
+}
+.buyers-images {
+  width: 50%;
+}
+.background-image {
+  position: relative;
+  overflow: hidden;
+  border-radius: 1rem;
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 30px;
+  margin-bottom: 2rem;
+  background-color: white;
+}
+.background-image:last-child {
+  box-shadow: rgba(149, 157, 165, 0.2) 0px 8px 90px;
+}
+.background-image img {
+  margin-top: -1rem;
+  width: 100%;
+}
+
+.seo-analysis {
+  display: flex;
+  justify-content: space-between;
+  position: absolute;
+  padding: 2rem 1.9rem;
+}
+
+.seo-analysis .heading {
+  font-size: 0.45rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.seo-analysis .description {
+  width: 50%;
+  font-size: 0.9rem;
+  line-height: 1.3rem;
+  color: gray;
+}
+
+.buyer-features-card {
+  display: flex;
+  align-items: center;
+  margin: 3.8rem 0rem;
+  width: 22rem;
+  /* width: 100%; */
+}
+.features-data {
+  margin-left: 1rem;
+}
+.features-data h1 {
+  font-size: 1rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.features-data p {
+  margin: 0.5rem 0rem;
+  color: gray;
+  font-size: 0.8rem;
+  line-height: 1.1rem;
+}
+.exclusive p {
+  margin-top: 2rem;
+  text-transform: uppercase;
+  letter-spacing: 2px;
+  font-size: 0.7rem;
+}
+
+@media only screen and (max-width: 543px) {
+  
+  .seo-analysis {
+    display: flex;
+    flex-direction: column;
+    position: initial;
+    padding: 0;
+  }
+  .seo-analysis .heading {
+    font-size: 0.4rem;
+    font-weight: 900;
+    margin-top: 0.3rem;
+    margin-bottom: 0.5rem;
+  }
+  .seo-analysis .description {
+    width: 100%;
+    font-size: 0.8rem;
+    line-height: 1.2rem;
+  }
+
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+  .buyers {
+    padding-top: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    padding-bottom: 1rem;
+  }
+  .buyers-section-heading h1 {
+    width: 100%;
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .buyers-section-content {
+    display: flex;
+    flex-direction: column;
+  }
+  .buyers-card {
+    width: 100%;
+  }
+  .buyers-images {
+    width: 100%;
+  }
+  .buyers-card-heading h2 {
+    font-size: 1.3rem;
+  }
+  .buyers-card-heading p {
+    color: gray;
+  }
+  .buyer-features-card {
+    width: 100%;
+  }
+  .features-card .features-data button {
+    margin-left: 0;
+  }
+  .features-data p {
+    font-size: 0.75rem;
+  }
+  .btn-lg {
+    padding-top: 0.5rem;
+    padding-bottom: 0.5rem;
+  }
+  .exclusive p {
+    margin-top: 1.5rem;
+  }
+  .buyers-images h2 {
+    font-size: 1.3rem;
+    margin-top: 5rem;
+  }
+  .buyers-image-heading p {
+    color: rgb(151, 151, 151);
+    line-height: 1.3rem;
+  }
+  .background-image {
+    border-top-left-radius: 0rem;
+    border-top-right-radius: 0rem;
+    position: initial;
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 35px -10px,
+      rgba(0, 0, 0, 0.01) 0px 10px 15px -5px;
+    margin-bottom: 3rem;
+    overflow: unset;
+  }
+
+  .background-image:last-child {
+    box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 35px -10px,
+      rgba(0, 0, 0, 0.01) 0px 10px 15px -5px;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

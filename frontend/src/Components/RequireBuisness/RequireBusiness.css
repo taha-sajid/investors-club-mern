@@ -1,0 +1,100 @@
+.require-business-section {
+  background-color: var(--background-color);
+}
+.require-business-container {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 5rem 3rem;
+}
+.require-business-container .heading {
+  color: var(--color-primary);
+  text-align: center;
+}
+.require-business-container .heading h1 {
+  font-weight: 900;
+}
+.require-business-container .cards {
+  display: flex;
+  margin-top: 7rem;
+  justify-content: space-between;
+  position: relative;
+}
+.require-business-container .cards .line {
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+.require-business-container .cards .card {
+  width: 20rem;
+  padding: 3rem 2rem;
+  background: url("https://investors.club/static/media/smaller-card-pattern.0928ecc4.svg");
+  background-color: #411a72;
+  border-radius: 1rem;
+  color: var(--color-secondary);
+  position: relative;
+}
+.require-business-container .cards .card i {
+  position: absolute;
+  top: -2.5rem;
+  right: -1rem;
+}
+.require-business-container .cards .card p {
+  color: white;
+  text-align: left;
+  line-height: 1.5rem;
+}
+.require-business-container .buttons {
+  display: flex;
+  justify-content: center;
+  margin-top: 4rem;
+}
+
+.require-business-container .buttons button {
+  text-transform: none;
+}
+
+@media only screen and (max-width: 992px) {
+  .require-business-container {
+    padding: 4rem 1.5rem;
+  }
+  .require-business-container .heading h1 {
+    font-size: 1.3rem;
+    font-weight: 800;
+  }
+  .require-business-container .cards {
+    flex-direction: column;
+  }
+  .require-business-container .cards .line {
+    display: none;
+  }
+  .require-business-container .cards .card {
+    width: 100%;
+    margin-bottom: 4rem;
+  }
+  .require-business-container .cards .card:last-child {
+    margin-bottom: 0;
+  }
+  .require-business-container .cards .card i {
+    right: 1rem;
+  }
+  .require-business-container .buttons {
+    margin-top: 2rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

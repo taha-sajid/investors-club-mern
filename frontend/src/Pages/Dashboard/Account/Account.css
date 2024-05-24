@@ -1,0 +1,33 @@
+.dashboard-content-body h4 {
+    margin-top: 1.5rem;
+}
+
+.dashboard-content-body .information-list {
+    margin-top: 1rem;
+}
+
+.dashboard-content-body .information-list h5 {
+    font-size: .9rem;
+    color: var(--text-color);
+    font-weight: 800;
+
+}
+
+.dashboard-content-body .information-list p {
+    margin-top: .2rem;
+    font-size: 1rem;
+}
+
+
+.dashboard-content-header {
+    display: flex;
+    justify-content: space-between;
+}
+
+.bell-icon svg {
+    fill: var(--color-primary);
+    /* fill: green; */
+    height: 48px !important;
+    width: 48px !important;
+    stroke-width: 1;
+}

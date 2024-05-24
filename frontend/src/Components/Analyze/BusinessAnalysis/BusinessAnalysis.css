@@ -1,0 +1,209 @@
+.business-analysis-container-heading {
+  padding: 2.5rem 5.5rem;
+  padding-bottom: 0rem;
+  margin-bottom: 1rem;
+  position: relative;
+}
+.business-analysis-container h2 {
+  color: var(--color-primary);
+  font-weight: 900;
+}
+.business-analysis-container h2::before {
+  content: " ";
+  position: absolute;
+  top: 3.3rem;
+  left: 3rem;
+  width: 2rem;
+  height: 1px;
+  border-bottom: 1px solid var(--color-primary);
+}
+.business-analysis-data {
+  padding: 3rem 0rem;
+  margin: 0rem 5.5rem;
+  border-bottom: 1px solid var(--text-color);
+  border-bottom-style: dashed;
+}
+
+.business-analysis-data-heading {
+  display: flex;
+  align-items: center;
+  margin-bottom: 0.4rem;
+}
+.business-analysis-data-heading i {
+  margin-right: 0.5rem;
+}
+.business-analysis-data-content .note {
+  font-size: 1.2rem;
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+}
+.business-analysis-data-content .notes {
+  padding: 0.3rem;
+  color: cadetblue;
+  border-bottom: 0.4rem solid cadetblue;
+}
+
+.business-analysis-data-content .description {
+  color: var(--text-color);
+  font-size: 0.9rem;
+  line-height: 1.2rem;
+}
+.business-analysis-data-content .earning-potential-note {
+  padding-top: 2rem;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-success);
+}
+.business-analysis-data-content .earning-potential-bar {
+  padding: 0.25rem;
+  background-color: var(--color-success);
+  border-radius: 100px;
+  margin-bottom: 1rem;
+}
+
+.business-analysis-data-content .earning-potential-details {
+  display: flex;
+  justify-content: space-between;
+  max-width: 25rem;
+  margin-bottom: 2.5rem;
+  text-transform: uppercase;
+}
+.business-analysis-data-content .earning-potential-details p {
+  font-size: 0.7rem;
+  color: var(--text-color);
+  letter-spacing: 1px;
+  margin-bottom: 0.3rem;
+}
+
+.current-earning h3 {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 1.35rem;
+}
+.potential-earning h3 {
+  font-size: 1.35rem;
+  color: var(--color-success);
+  font-weight: 900;
+}
+
+.business-analysis-section-grow {
+  background: linear-gradient(rgba(74, 17, 114, 0.623), rgba(74, 17, 114, 0.61)),
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-color: var(--color-primary);
+  border-radius: 0.5rem;
+  margin-top: -5px;
+  background-size: 50%;
+  display: flex;
+  padding: 5rem 3rem;
+  position: relative;
+}
+
+.business-analysis-section-grow .buzz-logic {
+  /* background-color: cadetblue; */
+  width: 50%;
+  padding-left: 3.5rem;
+}
+.business-analysis-section-grow .buzz-logic h1 {
+  font-size: 1.3rem;
+  font-weight: 900;
+  color: white;
+  margin: 1.75rem 0rem;
+}
+.business-analysis-section-grow .buzz-logic p {
+  color: white;
+  line-height: 1.3rem;
+}
+.business-analysis-section-grow .grow-now {
+  /* background-color: chocolate; */
+  flex: 1;
+  padding-left: 2rem;
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: flex-start;
+}
+.business-analysis-section-grow .grow-now p {
+  color: white;
+  line-height: 1.3rem;
+  margin-bottom: 1.75rem;
+  margin-top: 3rem;
+  padding: 0rem 4rem;
+  padding-left: 0rem;
+}
+.business-analysis-section-grow .grow-now i {
+  position: absolute;
+  top: 0rem;
+  right: 0px;
+}
+.business-analysis-section-grow .grow-now button {
+  box-shadow: none;
+}
+
+@media only screen and (max-width: 768px) {
+  .business-analysis-container-heading {
+    padding: 1.5rem 1rem;
+    margin-bottom: 0rem;
+  }
+  .business-analysis-container h2 {
+    font-size: 1.4rem;
+  }
+  .business-analysis-container h2::before {
+    content: "";
+    width: 0;
+  }
+
+  .business-analysis-data {
+    padding: 2rem 0rem;
+    margin: 0rem 1rem;
+  }
+  .business-analysis-data-heading h2 {
+    font-size: 1.3rem;
+  }
+  .business-analysis-data-content .note {
+    font-size: 1rem;
+    line-height: 1.3rem;
+  }
+  .business-analysis-data-content .description {
+    font-size: 0.85rem;
+  }
+  .business-analysis-section-grow {
+    flex-direction: column;
+    padding: 5rem 1rem;
+    padding-bottom: 3rem;
+    border-radius: 0;
+  }
+  .business-analysis-section-grow .buzz-logic {
+    width: 100%;
+    padding: 0;
+  }
+  .business-analysis-section-grow .grow-now {
+    padding-left: 0rem;
+  }
+  .business-analysis-section-grow .buzz-logic h1 {
+    font-size: 1rem;
+    margin: 1rem 0rem;
+  }
+  .buzz-logic .grow-now i {
+    top: -3rem;
+  }
+  .business-analysis-section-grow .buzz-logic p {
+    font-size: 0.9rem;
+  }
+  .business-analysis-section-grow .grow-now p {
+    font-size: 0.9rem;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .business-analysis-container-heading {
+    padding: 2.5rem;
+    padding-bottom: 1rem;
+  }
+  .business-analysis-data {
+    margin: 0 2.5rem;
+  }
+  .business-analysis-container h2::before {
+    content: " ";
+    width: 0rem;
+  }
+}

@@ -1,0 +1,11 @@
+.about-business-form-container .form-section input {
+    width: 100%;
+    margin-top: .3rem;
+    margin-bottom: .5rem;
+}
+
+.about-business-form-container .buttons {
+    display: flex;
+    margin: 0 auto;
+    gap: 1rem;
+}

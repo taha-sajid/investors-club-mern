@@ -1,0 +1,75 @@
+.selling-process-container {
+  padding: 7rem 3rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.selling-process-container .heading {
+  width: 44%;
+  color: var(--color-primary);
+}
+.selling-cards {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 2rem;
+  margin-top: 3rem;
+}
+.selling-card {
+  background-color: var(--background-color);
+  width: 48%;
+  display: flex;
+  padding: 2rem;
+  border-radius: 0.5rem;
+  border: 1px solid rgba(128, 128, 128, 0.212);
+  box-shadow: rgba(17, 12, 46, 0.041) 0px 48px 100px 0px;
+}
+.selling-card h3 {
+  width: 40%;
+  margin-right: 2rem;
+  font-size: 1.3rem;
+}
+.selling-card p {
+  width: 60%;
+  color: var(--text-color);
+  line-height: 1.3rem;
+}
+.selling-card span {
+  display: block;
+  margin-top: 1rem;
+}
+
+/* Apply below 992px */
+@media only screen and (max-width: 992px) {
+  .selling-process-container {
+    padding: 4rem 1.5rem;
+  }
+  .selling-process-container .heading {
+    width: 100%;
+    font-size: 0.7rem;
+  }
+  .selling-card {
+    width: 100%;
+    flex-direction: column;
+  }
+  .selling-card h3 {
+    width: 100%;
+    font-size: 1.05rem;
+  }
+  .selling-card p {
+    width: 100%;
+    margin-top: 1rem;
+    font-size: 0.9rem;
+  }
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 992px) and (min-width: 544px) {
+}
+
+/* Apply above 992px */
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

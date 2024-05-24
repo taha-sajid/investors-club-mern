@@ -1,0 +1,302 @@
+.join-us-today-section {
+  padding: 5rem;
+  background-color: var(--color-primary);
+  background-image: linear-gradient(
+      rgba(74, 17, 114, 0.7),
+      rgba(74, 17, 114, 0.7)
+    ),
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-repeat: repeat-x;
+  background-position: left 600px;
+}
+.join-us-today-container {
+  display: flex;
+  max-width: 85rem;
+  margin: 0 auto;
+  flex-direction: column;
+  align-items: center;
+}
+
+.join-us-today-heading {
+  font-size: 2.4rem;
+  color: var(--color-secondary);
+  font-weight: 700;
+  text-align: center;
+  margin-top: 3rem;
+}
+.join-us-today-cards-container {
+  display: flex;
+  justify-content: center;
+  margin-top: 2.5rem;
+}
+.join-us-today-card {
+  width: 50%;
+  border: 1px solid var(--color-secondary);
+  margin: 0 1rem;
+  border-radius: 0.4rem;
+  padding: 3rem 2.3rem;
+  padding-right: 3.5rem;
+}
+
+.join-us-today-cards-container .join-us-today-card:last-child {
+  background-color: white;
+  border: none;
+  position: relative;
+}
+.join-us-today-cards-container .join-us-today-card:last-child .card-header h2 {
+  color: var(--color-primary);
+}
+.premium-icon {
+  top: -1.2rem;
+  right: 1.2rem;
+  position: absolute;
+  height: 40px !important;
+  width: 40px !important;
+}
+.join-us-today-card .card-header h2 {
+  color: white;
+  margin-bottom: 1.5rem;
+}
+.join-us-today-card .card-header p {
+  color: rgb(184, 176, 176);
+  font-weight: 600;
+}
+.card-data-features {
+  margin-top: 5rem;
+}
+.join-us-today-card .card-data-features p {
+  color: rgb(184, 176, 176);
+  margin-top: 0.9rem;
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+.join-us-today-card .card-data-features p i {
+  margin-right: 1rem;
+  color: white;
+}
+
+.join-us-today-card .card-header button {
+  padding: 0.9rem 1.9rem;
+  background-color: white;
+  text-transform: uppercase;
+  color: rgb(182, 178, 178);
+  font-weight: 900;
+  border: 1px solid gray;
+  border-radius: 0.2rem;
+  cursor: pointer;
+  box-shadow: 1px 5px 10px rgba(207, 202, 202, 0.664);
+}
+.join-us-today-card .card-header button:hover {
+  opacity: 0.7;
+}
+.join-us-today-card .card-header button:last-child {
+  background-color: var(--color-primary);
+  color: white;
+  box-shadow: 1px 5px 10px rgba(207, 202, 202, 0.664);
+}
+
+.today-card-buttons {
+  position: relative;
+  width: max-content;
+  margin-top: 2rem;
+}
+.today-card-buttons .button-icon {
+  position: absolute;
+  top: -1rem;
+  right: -0.7rem;
+  height: 32px;
+  z-index: 1;
+}
+
+.join-us-today-card .card-header .card-price {
+  margin: 3rem 0rem;
+}
+.join-us-today-card .card-header .card-price h1 {
+  font-size: 3rem;
+  color: var(--color-primary);
+  font-weight: 900;
+}
+
+.join-us-today-card .card-header .card-price strike h6,
+strike {
+  color: rgb(219, 21, 21);
+  font-weight: 900;
+  font-size: 1rem;
+}
+
+.join-us-today-cards-container
+  .join-us-today-card:last-child
+  .card-data-features
+  h1 {
+  color: var(--color-primary);
+  font-size: 1.4rem;
+  font-weight: 800;
+  margin-bottom: 1.5rem;
+}
+
+.join-us-today-cards-container
+  .join-us-today-card:last-child
+  .card-data-features
+  p {
+  display: flex;
+  color: var(--color-primary);
+  font-size: 1.2rem;
+  font-weight: 400;
+}
+.join-us-today-cards-container
+  .join-us-today-card:last-child
+  .card-data-features
+  p
+  i {
+  color: gray;
+  font-size: 1.4rem;
+}
+
+.join-us-today-cards-container
+  .join-us-today-card:last-child
+  .card-data-features
+  p
+  span {
+  font-size: 1.3rem;
+  color: var(--color-primary);
+  font-weight: 800;
+  margin-right: 0.4rem;
+}
+
+.join-us-today-container h4 {
+  color: white;
+  font-weight: 400;
+  margin: 2rem;
+  text-align: start;
+}
+
+.start-free-card {
+  border: 1px solid var(--color-secondary);
+  border-radius: 1rem;
+  margin-top: 5rem;
+  background-color: #5e1d8d8e;
+  display: flex;
+  align-items: center;
+  padding: 7rem;
+  max-width: 50rem;
+}
+.start-free-card img {
+  margin-right: 1.5rem;
+}
+
+.start-free-card h3 {
+  font-size: 2rem;
+  color: white;
+  margin-bottom: 0.5rem;
+}
+.start-free-card p {
+  margin: 1rem 0rem;
+  color: rgb(236, 235, 235);
+  line-height: 1.3rem;
+}
+.start-free-card button {
+  box-shadow: none;
+}
+.start-free-card button:hover {
+  box-shadow: 3px 10px 10px var(--color-primary);
+}
+
+@media only screen and (max-width: 768px) {
+  .join-us-today-section {
+    padding: 1.5rem;
+    padding-bottom: 4rem;
+  }
+  .join-us-today-heading {
+    font-size: 1.7rem;
+    padding-left: 1rem;
+    padding-right: 1rem;
+  }
+  .join-us-today-cards-container {
+    flex-direction: column;
+    /* overflow: hidden; */
+  }
+  .join-us-today-card {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 2rem;
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+  }
+  .join-us-today-card .card-header h2 {
+    font-size: 1.3rem;
+  }
+  .start-free-card {
+    padding: 2.5rem 1rem;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-top: 2.5rem;
+  }
+  .start-free-card p {
+    font-size: 0.9rem;
+  }
+  .start-free-card .start-free-data {
+    text-align: center;
+  }
+  .start-free-card .start-free-data h3 {
+    font-size: 1.35rem;
+  }
+  .start-free-card img {
+    margin-right: 0;
+  }
+  .join-us-today-card .card-header .card-price h1 {
+    font-size: 1.7rem;
+  }
+  .join-us-today-cards-container
+    .join-us-today-card:last-child
+    .card-data-features
+    h1 {
+    font-size: 1.1rem;
+    font-weight: 700;
+  }
+  .join-us-today-cards-container
+    .join-us-today-card:last-child
+    .card-data-features
+    p
+    span {
+    font-size: 1rem;
+  }
+  .join-us-today-cards-container
+    .join-us-today-card:last-child
+    .card-data-features
+    p {
+    font-size: 0.9rem;
+  }
+  .join-us-today-cards-container .join-us-today-card .card-header p {
+    font-weight: 400;
+  }
+  .card-data-features {
+    margin-top: 3rem;
+  }
+  .join-us-today-card .card-data-features p span {
+    font-size: 0.6rem;
+    font-weight: 400;
+  }
+
+  .join-us-today-card .card-data-features h1 {
+    font-size: 1rem;
+  }
+  .join-us-today-container h4{
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .join-us-today-section {
+    padding: 2rem;
+  }
+  .join-us-today-heading {
+    font-size: 2rem;
+  }
+  .start-free-card {
+    margin-top: 3rem;
+    padding: 5.5rem 7rem;
+    margin-bottom: 5rem;
+  }
+}

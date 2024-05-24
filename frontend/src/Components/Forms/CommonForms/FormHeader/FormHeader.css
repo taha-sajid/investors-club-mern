@@ -1,0 +1,230 @@
+.form-error {
+    font-size: .75rem;
+    color: #d84a4a;
+    margin-top: .4rem;
+}
+
+.form-section {
+    max-width: 85rem;
+    margin-bottom: 2rem;
+}
+
+.form-header-container {
+    background-color: var(--background-color);
+    display: flex;
+    flex-direction: column;
+    padding-bottom: 8rem;
+
+}
+
+.registeration-header-container {
+    background-image: linear-gradient(to bottom, #4a11729f, #4a1172a1), url('https://investors.club/static/media/pattern-1.e467f39f.svg');
+    background-color: var(--color-primary);
+    border-bottom-left-radius: 1.2rem;
+    border-bottom-right-radius: 1.2rem;
+    padding-bottom: 10rem;
+}
+
+.registeration-header-container .header-wrapper {
+    padding: 1.5rem 3rem;
+    box-shadow: 0 6px 5px #2f004f75;
+}
+
+.registeration-header-container .form-information {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    color: white;
+
+}
+
+.registeration-header-container .form-information .form-title {
+    font-size: 3.2rem;
+    padding-top: 5rem;
+}
+
+.registeration-header-container .form-information .steps-container {
+    display: flex;
+    gap: 2rem;
+    padding: 3rem 0rem;
+}
+
+.registeration-header-container .form-information .steps-container .step {
+    color: var(--color-secondary);
+    border: 1px solid var(--text-color);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 28px;
+    height: 28px;
+    border-radius: 50%;
+    padding: .15rem;
+    border: 1px solid var(--color-secondary);
+}
+
+.registeration-header-container .form-information .steps-container .step svg {
+    margin-top: .4rem;
+    color: var(--color-primary);
+    stroke-width: 1;
+}
+
+.registeration-header-container .form-information .steps-container .step::before {
+    content: "";
+    height: 1px;
+    background: var(--text-color);
+    width: 20px;
+    position: absolute;
+    margin-left: 60px;
+
+}
+
+.registeration-header-container .form-information .steps-container .step:last-child::before {
+    content: none;
+}
+
+.registeration-header-container .form-information .steps-container .step p {
+    margin-top: -3px;
+}
+
+.registeration-header-container .form-information .steps-container .active {
+    background-color: var(--color-secondary);
+    color: var(--color-primary);
+    font-weight: bold;
+}
+
+.registeration-header-container .form-information h4 {
+    font-size: 1rem;
+    word-spacing: 5px;
+    letter-spacing: 2px;
+}
+
+.registeration-header-container .form-information .step-description {
+    line-height: 1.4rem;
+    margin-top: 2rem;
+    margin-bottom: 3rem;
+}
+
+.registeration-header-container .form-information .step-title,
+.registeration-header-container .form-information .step-description {
+    max-width: 30rem;
+    text-align: center;
+}
+
+.form-header-container button {
+    width: max-content;
+    margin: 0 auto;
+}
+
+
+
+.form-header-container form {
+    display: flex;
+    flex-direction: column;
+}
+
+
+
+.input-fl {
+    padding: .5rem;
+    border-radius: .5rem;
+    cursor: pointer;
+
+}
+
+.form-section h4 {
+    color: var(--color-primary);
+
+}
+
+
+.form-section .buttons-container {
+    margin-top: 1rem;
+    display: flex;
+    justify-content: center;
+    gap: 2rem;
+}
+
+
+.form-section .buttons-container button {
+    text-align: start;
+    width: 22.5rem;
+    font-weight: 400;
+}
+
+.form-header-container .header-buttons-container button {
+    box-shadow: none;
+    font-weight: 600;
+}
+
+.form-header-container .header-buttons-container button:first-child {
+    color: var(--color-secondary);
+}
+
+.contact-email {
+    margin-top: 3rem;
+}
+
+.contact-email span {
+    color: var(--color-secondary);
+}
+
+.form-header-container .criteria {
+    margin-top: 1rem;
+}
+
+.criteria div {
+    display: flex;
+    align-items: center;
+    gap: 1rem;
+    justify-content: center;
+    line-height: 1.8rem;
+
+}
+
+/* Extra small devices (phones, 768px and down) */
+@media only screen and (max-width: 768px) {
+    .registeration-header-container .form-information {
+        padding-left: 1.5rem;
+        padding-right: 1.5rem;
+    }
+
+    .registeration-header-container .form-information .form-title {
+        font-size: 2.2rem;
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (max-width: 544px) {
+    .registeration-header-container .form-information .form-title {
+        font-size: 1.75rem;
+    }
+
+    .registeration-header-container .form-information h4 {
+        word-spacing: 0;
+        font-size: .85rem;
+    }
+
+    .registeration-header-container .form-information .step-description {
+        font-size: .85rem;
+        padding-right: 1.5rem;
+        padding-left: 1.5rem;
+        line-height: 1.2rem;
+
+    }
+
+
+
+}
+
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {}
+
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) and (max-width: 1200px) {}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {}

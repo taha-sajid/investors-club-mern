@@ -1,0 +1,14 @@
+.dashboard-content-body h2 {
+    font-size: 1.3rem;
+    font-weight: 600;
+}
+
+.dashboard-content-body .icons svg {}
+
+.bell-icon svg {
+    fill: var(--color-primary);
+    /* fill: green; */
+    height: 48px !important;
+    width: 48px !important;
+    stroke-width: 1;
+}

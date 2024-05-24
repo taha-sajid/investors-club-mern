@@ -1,0 +1,107 @@
+.resources-section {
+  padding: 5rem 3rem;
+  background-color: #f4f7ff;
+}
+
+.resources-section .heading {
+  max-width: 85rem;
+  margin: 0 auto;
+  margin-bottom: 3rem;
+  color: var(--color-primary);
+}
+
+.free-resources-cards {
+  display: flex;
+  flex-wrap: wrap;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.resources-card {
+  transition: 0.3s;
+  width: 31%;
+  margin: 0 auto;
+  cursor: pointer;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+  box-shadow: rgba(0, 0, 0, 0.1) 0px 20px 25px -5px,
+    rgba(0, 0, 0, 0.04) 0px 10px 10px -5px;
+  margin-bottom: 2rem;
+}
+
+.resources-card:hover {
+  transform: translateY(-0.7rem);
+  box-shadow: rgba(0, 0, 0, 0.14) 0px 3px 18px;
+}
+.resources-card img {
+  width: 100%;
+  background-size: cover;
+}
+.resources-card-data {
+  padding: 2rem;
+  overflow: hidden;
+  background-color: white;
+  border-bottom-left-radius: 1.5rem;
+  border-bottom-right-radius: 1.5rem;
+}
+.resources-card-data h3 {
+  color: var(--color-primary);
+  margin-bottom: 1rem;
+  font-weight: 900;
+  line-height: 1.5rem;
+}
+.resources-card-data .description {
+  font-size: 0.85rem;
+  color: gray;
+  line-height: 1.5rem;
+  font-weight: 400;
+  margin-bottom: 1rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .resources-section {
+    padding: 3rem 1.5rem;
+    background-color: #f4f7ff;
+  }
+  .resources-section .heading {
+    margin-bottom: 2rem;
+  }
+  .resources-section .heading h1 {
+    font-size: 1.3rem;
+    font-weight: 900;
+  }
+  .resources-card {
+    margin-bottom: 2rem;
+    width: 100%;
+  }
+  .resources-card-data {
+    border-bottom-right-radius: 1rem;
+    border-bottom-left-radius: 1rem;
+  }
+  .resources-card-data h3 {
+    font-size: 0.95rem;
+  }
+  .resources-card-data .description {
+    font-size: 0.8rem;
+  }
+}
+
+/* Small devices (portrait tablets and large phones, 600px and up) */
+@media only screen and (min-width: 600px) {
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .resources-card {
+    margin-bottom: 2rem;
+    width: 48%;
+  }
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}

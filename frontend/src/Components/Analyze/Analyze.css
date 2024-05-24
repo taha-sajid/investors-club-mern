@@ -1,0 +1,111 @@
+.analyze-section {
+  padding: 0rem 3rem;
+  max-width: 85rem;
+  margin: 0 auto;
+  padding-bottom: 6rem;
+}
+.analyze-container {
+  border-top: 1px solid rgb(206, 200, 200);
+  /* padding-top: 4rem; */
+}
+.analyze-slogon {
+  color: var(--dark-text);
+  padding: 2.5rem 0rem;
+  display: flex;
+  /* margin-top: -5.5rem; */
+}
+.analyze-slogon i {
+  margin-right: 1.75rem;
+}
+
+.analyze-data-container {
+  /* background-color: cadetblue; */
+  display: flex;
+}
+
+.analyze-info-container {
+  /* background-color: chocolate; */
+  /* width: 70%; */
+  flex: 1;
+  border-radius: 0.5rem;
+}
+.analyze-info {
+  border: 1px solid rgb(206, 200, 200);
+  background-color: white;
+}
+.analyze-sidebar {
+  /* background-color: chartreuse; */
+  width: 25%;
+  margin-top: 6rem;
+}
+.analyze-sidebar h4 {
+  color: var(--color-secondary);
+  text-transform: uppercase;
+  margin-bottom: 1.5rem;
+}
+
+.analyze-sidebar ul {
+  list-style: none;
+}
+.analyze-sidebar-list {
+  text-transform: capitalize;
+  cursor: pointer;
+  font-weight: 900;
+  position: relative;
+  display: block;
+  padding: 6px 0;
+  padding: 1.3em 0rem;
+  font-size: 14px;
+  line-height: 20px;
+  width: max-content;
+  letter-spacing: 0.5px;
+}
+
+.analyze-sidebar-list:hover {
+  color: var(--color-primary);
+}
+.analyze-sidebar-list::before {
+  content: "";
+  width: 1px;
+  background-color: cadetblue;
+  height: 100%;
+  background: rgba(57, 18, 84, 0.1);
+  display: block;
+  position: absolute;
+  top: 0;
+  left: -1.5rem;
+  transition: all 0.2s ease-out, width 1ms;
+}
+.analyze-sidebar-list:hover::before {
+  background-color: var(--color-primary);
+  width: 2px;
+}
+.active-sidebar::before {
+  background-color: var(--color-primary);
+  width: 2px;
+}
+.analyze-info {
+  border-radius: 0.5rem;
+  box-shadow: 0px 26px 46px 1px rgba(128, 128, 128, 0.377);
+}
+@media only screen and (max-width: 768px) {
+  .analyze-section {
+    padding: 0rem 1.5rem;
+    padding-bottom: 5rem;
+  }
+  .analyze-data-container {
+    flex-direction: column;
+  }
+  .analyze-slogon p {
+    font-size: 0.95rem;
+    line-height: 1.3rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .analyze-sidebar {
+    margin-top: 4rem;
+  }
+  .analyze-data-container {
+    flex-direction: column;
+  }
+}

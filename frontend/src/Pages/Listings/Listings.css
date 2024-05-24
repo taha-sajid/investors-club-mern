@@ -1,0 +1,11 @@
+.listing-page-container .my-listings {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 2.1rem;
+    padding: 3rem 0rem;
+}
+
+.latest-addition-section {
+    padding: 0;
+    margin: 0;
+}

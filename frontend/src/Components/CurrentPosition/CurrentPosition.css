@@ -1,0 +1,80 @@
+.current-position {
+  display: flex;
+  flex-wrap: wrap;
+  text-transform: uppercase;
+  font-size: 0.75rem;
+  font-weight: 600;
+  max-width: 85rem;
+  padding: 0rem 3rem;
+  margin: 0 auto;
+  margin-bottom: 3.5rem;
+}
+
+.current-position h3 {
+  margin: 0.5rem 0rem;
+  font-weight: 900;
+  font-size: 2.5rem;
+  color: black;
+  margin-left: 35px;
+}
+.current-position h3 span {
+  font-size: 1.8rem;
+}
+.current-position .title {
+  display: flex;
+  color: gray;
+}
+.current-position .title .line {
+  width: 30px;
+  border-bottom: 1px solid gray;
+  margin-bottom: 5px;
+  margin-right: 0.5rem;
+}
+.asking-price,
+.active-listing {
+  margin-right: 15rem;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .current-position {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    margin-top: 3rem;
+  }
+  .current-position h3 {
+    margin-left: 0;
+    font-size: 1.5rem;
+    margin-bottom: 2rem;
+  }
+  .current-position h3 span {
+    font-size: 1.2rem;
+  }
+  .current-position .title {
+    font-size: 0.7rem;
+    font-weight: 700;
+    letter-spacing: 0.5px;
+  }
+  .current-position .title .line {
+    display: none;
+  }
+  .asking-price,
+  .active-listing {
+    margin: 0;
+  }
+}
+
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .current-position h3 {
+    font-size: 1.9rem;
+  }
+  .current-position h3 span {
+    font-size: 1.4rem;
+  }
+  .asking-price,
+  .active-listing {
+    margin-right: 9rem;
+  }
+}

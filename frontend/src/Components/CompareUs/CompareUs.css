@@ -1,0 +1,135 @@
+.compare-us-section {
+  background-color: var(--background-color);
+}
+.compare-us-container {
+  max-width: 85rem;
+  margin: 0 auto;
+  padding: 6rem 3rem;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+.compare-us-container button {
+  margin-top: 2.5rem;
+}
+.compare-us-heading {
+  text-align: center;
+}
+.compare-us-heading h1 {
+  font-size: 2.2rem;
+  margin-bottom: 1rem;
+  color: var(--dark-text);
+}
+.compare-us-heading p {
+  color: var(--text-color);
+}
+.compare-us-cards-container {
+  display: flex;
+  margin-top: 3rem;
+  gap: 3rem;
+  position: relative;
+}
+.compare-us-cards-container .compare-us-card:first-child {
+  background-image: linear-gradient(
+      rgba(74, 17, 114, 0.7),
+      rgba(74, 17, 114, 0.7)
+    ),
+    url("https://investors.club/static/media/pattern-1.e467f39f.svg");
+  background-size: 30%;
+}
+
+.compare-us-cards-container .compare-us-card:first-child p {
+  color: white;
+  border-bottom: 1px solid gray;
+}
+.compare-us-cards-container .compare-us-card:last-child {
+  background-color: white;
+  margin: 1.5rem 0rem;
+}
+.compare-us-cards-container .compare-us-card:last-child p {
+  color: gray;
+}
+.compare-us-card {
+  background-color: var(--color-primary);
+  padding: 3rem;
+  border-radius: 1rem;
+}
+.compare-us-card .card-heading {
+  margin-bottom: 1.5rem;
+  color: var(--color-primary);
+  font-weight: 900;
+}
+.compare-card-data p {
+  display: flex;
+  color: white;
+  font-size: 1.2rem;
+  padding: 1rem 0rem;
+  border-bottom: 1px solid rgb(219, 216, 216);
+}
+
+.compare-icon {
+  margin-right: 1.5rem;
+}
+
+.versus-container {
+  background-color: var(--color-secondary);
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: rgb(141, 96, 13);
+  font-weight: 400;
+  font-size: 1.9rem;
+  border: 0.13rem solid white;
+  box-shadow: 1px 1px 8px gray;
+}
+
+.versus-container p {
+  transform: rotate(-15deg);
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .compare-us-container {
+    padding: 2rem 1.5rem;
+    padding-bottom: 4rem;
+  }
+  .compare-us-container button {
+    margin-top: 1rem;
+  }
+  .compare-us-heading h1 {
+    font-size: 1.4rem;
+    font-weight: 900;
+  padding-top: 2rem;
+  }
+  .compare-us-heading p {
+  font-size: .9rem;
+  }
+  .compare-us-cards-container {
+    flex-direction: column;
+  }
+  .compare-us-card {
+    margin: 0;
+  }
+  .compare-card-data p {
+    font-size: 0.9rem;
+
+    line-height: 1.2rem;
+  }
+}
+@media only screen and (min-width: 768px) and (max-width: 992px) {
+  .compare-us-heading h1 {
+    font-size: 2rem;
+  }
+  .compare-card-data p {
+    font-size: 0.9rem;
+
+    line-height: 1.2rem;
+  }
+}

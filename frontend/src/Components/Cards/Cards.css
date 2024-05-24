@@ -1,0 +1,92 @@
+.cards-section {
+  padding: 5rem 3rem;
+  background-color: var(--background-color);
+  margin: 0 auto;
+  color: var(--text-color);
+}
+.cards-section .heading {
+  color: var(--color-primary);
+  margin: 0 auto;
+  margin-bottom: 5rem;
+  max-width: 85rem;
+}
+.cards-section .heading h1 {
+  width: 55%;
+  font-size: 2rem;
+}
+.cards-section .cards {
+  line-height: 1.5rem;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+.card-container {
+  display: flex;
+  width: 100%;
+  margin: 0 auto;
+}
+.cards-section .cards .card {
+  width: 30%;
+  background-color: white;
+  border-radius: 1rem;
+  padding: 3rem 2rem;
+  box-shadow: 0 5.3px 8px rgb(0 0 0 / 10%), 0 42px 64px rgb(0 0 0 / 10%);
+  margin: 0 auto;
+}
+.cards-section .cards .card i {
+  position: absolute;
+  margin-top: -5.5rem;
+}
+
+.cards-section .cards .card .card-heading h3 {
+  color: var(--color-primary);
+  text-transform: capitalize;
+  font-size: 1.25rem;
+  font-weight: 800;
+  margin-top: 1rem;
+  margin-bottom: 2.5rem;
+}
+.cards-section .cards .card .card-description p {
+  font-size: 1.01rem;
+}
+.cards-section .cards .card .card-description,
+.card-description p {
+  margin-bottom: 1.5rem;
+}
+.cards-section .cards .card .card-note {
+  font-size: 1rem;
+  font-weight: 600;
+}
+
+@media only screen and (max-width: 768px) {
+  .cards-section {
+    padding: 0rem 1.5rem;
+    padding-top: 3rem;
+  }
+  .cards-section .heading h1 {
+    width: 100%;
+    font-size: 1.4rem;
+    font-weight: bold;
+  }
+  .card-container {
+    flex-direction: column;
+    width: 100%;
+  }
+  .cards-section .cards .card {
+    width: 100%;
+    margin: 0;
+    margin-bottom: 4rem;
+  }
+  .cards-section .cards .card .card-heading h3 {
+    font-size: 1.1rem;
+    margin-bottom: 1.75rem;
+  }
+  .cards-section .cards .card .card-description p {
+    font-size: 0.9rem;
+    text-align: left;
+  }
+  .cards-section .cards .card .card-note {
+    font-size: 0.95rem;
+    font-weight: 600;
+    text-align: left;
+  }
+}

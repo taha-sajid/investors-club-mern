@@ -1,0 +1,125 @@
+.recently-sold {
+  background-color: #f4f7ff;
+  padding: 2rem;
+  padding-bottom: 4rem;
+  box-shadow: inset 0px 10px 35px var(--color-primary-dark);
+}
+.recently-sold h1 {
+  color: var(--color-primary);
+  font-weight: 900;
+  font-size: 1.5rem;
+}
+.recently-sold .heading {
+  display: flex;
+  align-items: center;
+  max-width: 85rem;
+  margin: 0 auto;
+  margin-bottom: 2rem;
+}
+.heading i {
+  margin-top: 0.3rem;
+  font-size: 1.5rem;
+  margin-right: 1rem;
+}
+.slider {
+  overflow: hidden;
+  display: flex;
+  justify-content: space-between;
+  max-width: 85rem;
+  margin: 0 auto;
+}
+
+.slide {
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 25rem;
+  border-radius: 5px;
+  padding: 1.5rem 2.5rem;
+  background-color: white;
+  box-shadow: rgba(100, 99, 99, 0.15) 0px 5px 25px;
+  flex-shrink: 0;
+  margin-left: 2.5rem;
+  transition: all 0.75s ease-in-out;
+}
+.slide:first-child {
+  margin-left: 0rem;
+}
+.slider .slide .sold-price {
+  display: flex;
+  align-items: center;
+  font-size: 1.5rem;
+  font-weight: 900;
+  color: var(--color-primary);
+}
+.sold-price .icon {
+  transform: rotate(-45deg);
+  margin-right: 0.2rem;
+}
+
+.slide .data .date {
+  font-size: 0.8rem;
+  margin-bottom: 0.5rem;
+  color: gray;
+}
+.data p:last-child {
+  font-size: 0.9rem;
+  color: rgb(73, 71, 71);
+  text-transform: uppercase;
+}
+
+/* Extra small devices (phones, 600px and down) */
+@media only screen and (max-width: 768px) {
+  .recently-sold {
+    padding-left: 1.5rem;
+    padding-right: 1.5rem;
+    box-shadow: inset 0px 10px 35px rgba(121, 40, 187, 0.274);
+  }
+  .recently-sold .heading {
+    padding: 0;
+  }
+  .recently-sold h1 {
+    font-size: 1.3rem;
+  }
+  .slider {
+    width: 100%;
+  }
+  .slide {
+    display: flex;
+    flex-direction: column;
+    width: 100%;
+    margin-left: 0;
+  }
+  .slide .data {
+    text-align: center;
+    margin-bottom: 1.3rem;
+  }
+  .slide .sold-price {
+    display: flex;
+  }
+  .slide .sold-price p {
+    font-size: 1.3rem;
+  }
+  .slide .sold-price .icon {
+    font-size: 1.2rem;
+    margin-top: 0.25rem;
+  }
+  .slide .data .date {
+    font-size: 0.75rem;
+  }
+  .slide .data p:last-child {
+    font-size: 0.8rem;
+  }
+}
+
+/* Medium devices (landscape tablets, 768px and up) */
+@media only screen and (min-width: 768px) {
+}
+
+/* Large devices (laptops/desktops, 992px and up) */
+@media only screen and (min-width: 992px) {
+}
+
+/* Extra large devices (large laptops and desktops, 1200px and up) */
+@media only screen and (min-width: 1200px) {
+}
