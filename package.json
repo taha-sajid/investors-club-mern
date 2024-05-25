@@ -1,12 +1,11 @@
 {
-  "name": "investors-club-mern",
+  "name": "investors-club",
   "version": "1.0.0",
-  "description": "A place where you can buy and sell your websites easily",
-  "main": "index.js",
   "scripts": {
-    "start": "node backend/server.js",
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "start": "node backend/server.js"
   },
-  "author": "Syed Muhammad Taha",
-  "license": "ISC"
+  "dependencies": {
+    "mongoose": "^5.12.3",
+    "jsonwebtoken": "^8.5.1"
+  }
 }
