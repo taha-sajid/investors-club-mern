@@ -12,7 +12,7 @@ const app = express();
 app.use(bodyParser.json());
 
 app.use(cors({
-  origin: "https://investors-club-mern.vercel.app/" // Replace with your actual origin
+  origin: "https://investors-club-mern.vercel.app" // Replace with your actual origin
 }));
 // Example static file serving in Express
 app.use("/uploads", express.static("public/uploads"));
