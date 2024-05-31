@@ -11,7 +11,7 @@ const Listings = () => {
   const [error, setError] = useState(null);
 
   useEffect(() => {
-    fetch("http://localhost:5000/getallistings")
+    fetch(`${process.env.REACT_APP_BASE_URL}/getallistings`)
       .then((resp) => resp.json())
       .then((listing) => {
         setListingsData([...listing.data]);

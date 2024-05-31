@@ -43,7 +43,7 @@ const FinancialAnalyticsForm = () => {
       console.log(`${key}:`, value);
     }
 
-    const res = await fetch("http://localhost:5000/createlisting", {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/createlisting`, {
       method: "POST",
       body: formData,
     });

@@ -51,7 +51,7 @@ const Index = () => {
     const { name, email, password, phoneNumber, passwordConfirm, role } =
       values;
 
-    const res = await fetch("http://localhost:5000/register", {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/register`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

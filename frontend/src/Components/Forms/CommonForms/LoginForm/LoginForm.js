@@ -11,13 +11,15 @@ import {
 } from "../../../../ReduxToolkit/Features/Auth/authSlice";
 import { Route, Navigate, Link } from "react-router-dom";
 
-const Index = () => {
+  const Index = () => {
   const dispatch = useDispatch();
   const [notice, setNotice] = useState("");
   const [showAlert, setShowAlert] = useState(false);
   const { isLoading, isLoggedIn, currentUser } = useSelector(
     (state) => state.auth
   );
+
+  console.log(process.env.BASE_URL, "My base url");
 
   const initialValues = {
     email: "",
@@ -26,7 +28,7 @@ const Index = () => {
   const postData = async () => {
     const { email, password } = values;
 
-    const res = await fetch("http://localhost:5000/login", {
+    const res = await fetch(`${process.env.REACT_APP_BASE_URL}/login`, {
       method: "POST",
       headers: {
         "content-type": "application/json",

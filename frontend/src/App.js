@@ -22,6 +22,7 @@ import AboutBusiness from "./Pages/AboutBusiness/AboutBusiness";
 import FinancialAnalytics from "./Pages/FinancialAnalytics/FinancialAnalytics";
 import SellYourService from "./Pages/SellYourService/SellYourService";
 
+
 import {
   BrowserRouter as Router,
   Routes,
@@ -31,8 +32,9 @@ import {
   // useLocation,
 } from "react-router-dom";
 
+
 function App() {
-  console.log("It's working fine");
+  console.log("It's working fine", process.env.REACT_APP_BASE_URL);
   const routes = [
     "/account/offers",
     "/account/inbox",
